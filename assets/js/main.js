@@ -46,6 +46,8 @@ BRUSHED.listenerMenu = function(){
    Slider Options
 ================================================== */
 
+const sliderContent = "<div class='slide-content'><a href='https://0xaryan.github.io/cv'>0xaryan</a></div>";
+
 BRUSHED.slider = function(){
 	$.supersized({
 		// Functionality
@@ -77,10 +79,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : 'assets/img/slider-images/image01.jpg', title : '<div class="slide-content">0xaryan</div>', thumb : '', url : ''},
-											{image : 'assets/img/slider-images/image02.jpg', title : '<div class="slide-content">0xaryan</div>', thumb : '', url : ''},
-											{image : 'assets/img/slider-images/image03.jpg', title : '<div class="slide-content">0xaryan</div>', thumb : '', url : ''},
-											{image : 'assets/img/slider-images/image04.jpg', title : '<div class="slide-content">0xaryan</div>', thumb : '', url : ''}  
+											{image : 'assets/img/slider-images/image01.jpg', title : sliderContent, thumb : '', url : ''},
+											{image : 'assets/img/slider-images/image02.jpg', title : sliderContent, thumb : '', url : ''},
+											{image : 'assets/img/slider-images/image03.jpg', title : sliderContent, thumb : '', url : ''},
+											{image : 'assets/img/slider-images/image04.jpg', title : sliderContent, thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   

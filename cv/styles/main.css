@@ -7281,3 +7281,9 @@ a.credit {
 .section {
   padding-bottom: 0;
 }
+
+
+/* Extra */
+.card-body a {
+  font-weight: bold;
+}

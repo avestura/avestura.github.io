@@ -7286,3 +7286,18 @@ a.credit {
 .card-body a {
   font-weight: bold;
 }
+
+.card-body.no-margin{
+  margin: 0;
+  padding: 0;
+}
+
+.card-inner-section {
+  background: #f7f7f7;
+  padding: 11px;
+  font-weight: bold;
+  color: gray;
+}
+.card-inner-content{
+  padding: 1.25rem;
+}

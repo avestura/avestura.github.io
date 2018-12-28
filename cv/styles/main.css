@@ -5171,7 +5171,6 @@ Created using IcoMoon - icomoon.io
   text-align: center;
   padding: 0 15px;
   color: #FFFFFF;
-  width: 100%;
   max-width: 880px;
 }
 
@@ -7286,4 +7285,19 @@ a.credit {
 /* Extra */
 .card-body a {
   font-weight: bold;
+}
+
+.card-body.no-margin{
+  margin: 0;
+  padding: 0;
+}
+
+.card-inner-section {
+  background: #f7f7f7;
+  padding: 11px;
+  font-weight: bold;
+  color: gray;
+}
+.card-inner-content{
+  padding: 1.25rem;
 }

@@ -12,7 +12,7 @@ error-403:
 
 error-404:
   name: 404
-  description: We are sorry but our service is currently not available
+  description: I am sorry, but you shouldn't be here
 
 error-500:
   name: 500

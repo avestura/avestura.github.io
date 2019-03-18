@@ -1,0 +1,1 @@
+ I'm not a professional designer, but I know how to use tools such as Photoshop in order to fix some of my needs. 

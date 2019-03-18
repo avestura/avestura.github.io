@@ -1,0 +1,184 @@
+programming:
+  - name: F#
+    source: fsharp.md
+    collapsed: false
+    tags: [OCaml, ML, Idris, Haskell, Pure Functional, Dependant Typing]
+
+  - name: C#
+    source: csharp.md
+    collapsed: false
+    tags: [.NET Core, .NET Standard, .NET Framework, Mono, CLR, CLI, ECMA]
+
+  - name: ASP.NET
+    source: asp.md
+    collapsed: true
+    tags: [ASP.NET Core, DI, Blazor, SignalR]
+
+  - name: WPF/UWP
+    source: wpfuwp.md
+    collapsed: true
+    tags: [XAML, WinRT API, App Packaging, Windows Desktop Bridge]
+
+  - name: PowerShell
+    source: powershell.md
+    collapsed: true
+    tags: [PowerShell Core, Windows PowerShell, PowerShell ISE]
+
+  - name: Entity Framework
+    source: ef.md
+    collapsed: true
+    tags: [PowerShell Core, Windows PowerShell, PowerShell ISE]
+
+  - name: Xamarin Technologies
+    source: xamarin.md
+    collapsed: true
+    tags: [Xamarin.Adnroid, Xamarin.Forms]
+
+  - name: Xaml
+    source: xaml.md
+    collapsed: true
+    tags: [Markup Extensions, Attached Properties, Serialize/Deserialize]
+
+  - name: Microsoft Office Dev
+    source: officedev.md
+    collapsed: true
+    tags: []
+
+  - name: SQL
+    source: sql.md
+    collapsed: true
+    tags: []
+
+  - name: HTML
+    source: html.md
+    collapsed: true
+    tags: [HTML5]
+
+  - name: CSS
+    source: css.md
+    collapsed: true
+    tags: [CSS3, Flex Box]
+
+  - name: Game Development
+    source: gamedev.md
+    collapsed: true
+    tags: [Xenko, Godot, Unity]
+
+  - name: Javascript
+    source: js.md
+    collapsed: true
+    tags: [ECMA Script, TypeScript]
+
+  - name: Browser Extension Development
+    source: webext.md
+    collapsed: true
+    tags: [Javascript]
+
+
+  - name: IoT / Rasp / Arduino
+    source: iot.md
+    collapsed: true
+    tags: [Windows 10 IoT Core, DIY]
+
+  - name: Python
+    source: python.md
+    collapsed: true
+    tags: [Python3]
+
+  - name: C++
+    source: cpp.md
+    collapsed: true
+    tags: []
+
+  - name: Assembly
+    source: assembly.md
+    collapsed: true
+    tags: [ATMega32, AVR, Intel]
+
+  - name: VHDL
+    source: vhdl.md
+    collapsed: true
+    tags: [Computer Aided Design]
+
+  - name: Java
+    source: java.md
+    collapsed: true
+    tags: [Java FX]
+
+career:
+  - name: UI / UX
+    source: ui.md
+    collapsed: true
+    tags: []
+
+  - name: Algorithm Design
+    source: algorithm.md
+    collapsed: true
+    tags: []
+
+  - name: DevOps
+    source: devops.md
+    collapsed: true
+    tags: []
+
+  - name: Linux
+    source: linux.md
+    collapsed: true
+    tags: []
+
+  - name: Windows Dev
+    source: win.md
+    collapsed: true
+    tags: []
+
+  - name: Visual Studio
+    source: vs.md
+    collapsed: true
+    tags: [VSCode]
+
+  - name: Photoshop
+    source: photoshop.md
+    collapsed: true
+    tags: []
+
+  - name: Microsoft Office
+    source: office.md
+    collapsed: true
+    tags: []
+
+  - name: IIS
+    source: iis.md
+    collapsed: true
+    tags: []
+
+  - name: Network
+    source: network.md
+    collapsed: true
+    tags: []
+
+general:
+  - name: Presentation
+    source: presentation.md
+    collapsed: true
+    tags: []
+
+  - name: AutoHotkey
+    source: ahk.md
+    collapsed: true
+    tags: []
+
+language:
+  - name: Persian
+    source: persian.md
+    collapsed: true
+    tags: []
+
+  - name: English
+    source: english.md
+    collapsed: true
+    tags: []
+
+  - name: Persian Poetry
+    source: persian-poetry.md
+    collapsed: true
+    tags: []

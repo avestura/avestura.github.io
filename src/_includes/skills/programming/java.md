@@ -1,0 +1,1 @@
+ I'm experienced in Threading, Socket Programming and Desktop Programming with Java (JavaFX). In almost all of my university projects I was forced to use Java, so ergo all of my AI projects, PL design projects and Advanced Programming course projects are written in Java. I'm not a fan of it though! 

@@ -1,0 +1,1 @@
+ I'm experienced in Microsoft SQL Server, MySQL, SQL-CE and SQLite. 

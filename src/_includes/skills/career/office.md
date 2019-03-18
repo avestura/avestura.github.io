@@ -1,0 +1,1 @@
+ I'm experienced in Word, Excell, Power Point and Microsoft Power BI. 

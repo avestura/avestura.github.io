@@ -1,0 +1,22 @@
+<div class="col-md-12">
+        <h3>{{include.title}}</h3>
+</div>
+
+{% for skill in include.skill-source %}
+<div class="col-md-6">
+    {% capture skill-raw %}{% include skills/{{include.area}}/{{skill.source}} %}{% endcapture %}
+    {% assign skill-doc = skill-raw | markdownify %}
+    {% if skill.tags.size != 0 %}
+        {% capture tags-list %}
+            <ul class="skill-tags">
+            {% for tag in skill.tags%}
+                <li>{{ tag }}</li>
+            {% endfor %}
+            </ul>
+        {% endcapture %}
+        {% include cards/card.html collapsed=skill.collapsed title=skill.name close-button=false content=skill-doc show-footer=true footer-content=tags-list  %}
+    {% else %}
+        {% include cards/card.html collapsed=skill.collapsed title=skill.name close-button=false content=skill-doc show-footer=false  %}
+    {%endif%}
+</div>
+{% endfor %}

@@ -1,0 +1,1 @@
+ I'm familiar with C++. I'm also experienced in POSIX APIs (processes, fork features, p_threads, ...). I also have a [GUI Tic-Tac-Toe game](https://github.com/0xaryan/doozGame) project fully written in C++ CLR.

@@ -1,0 +1,1 @@
+ Visual Studio is a great tool for developing software. It has a lot of features that you can use to refactor your code or debug your application in a faster way. I'm also familiar with Visual Studio Blend and its great XAML designer. 

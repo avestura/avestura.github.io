@@ -1,0 +1,52 @@
+---
+layout: default
+menu: index
+permalink: /post/
+---
+
+<div class="container">
+	{% include page-title.html title=post.title %}
+
+	<div class="row">
+		<div class="col-lg-3 order-lg-1 mb-4">
+			<a href="#" class="btn btn-block btn-primary mb-6">
+				<i class="fe fe-share-2 mr-2"></i>Share Post
+			</a>
+			{% capture tags_part %}
+				{% for tag in page.tags %}
+				<span class="tag">{{ tag }}</span>
+				{% endfor %}			
+			{% endcapture %}
+			{% include cards/card.html title="Tags" content=tags_part %}
+			
+		</div>
+		<div class="col-lg-9">
+			<div class="card">
+				<div class="card-body">
+
+					<div class="text-wrap p-lg-6">
+
+						{% if page.in_progress %}
+						<div class="alert alert-primary mt-5 mb-6">
+							<div><strong>Work in progress!</strong> More detailed post is coming soon.</div>
+						</div>
+						{% endif %}
+
+						{% if page.toc %}
+						{{ content | toc_only }}
+						{% endif %}
+
+						{{ content | toc_generate }}
+					</div>
+				</div>
+				<div class="card-footer">
+					{%- assign user = site.data.users[0] -%}
+					<span class="tag">
+							<span class="tag-avatar avatar" style="background-image: url({{ site.base }}/{{ user.photo }})"></span>
+							{{user.name}}
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

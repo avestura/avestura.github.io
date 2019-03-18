@@ -1,0 +1,1 @@
+ Design and making use of better algorithms with factors like time and space has always been of my concern. I always try to learn and use better algorithms when possible. 

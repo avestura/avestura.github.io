@@ -1,0 +1,15 @@
+<div class="col-md-12">
+    <h3>Work Experience</h3>
+</div>
+
+{% for xp in site.data.work-xp %}
+<div class="col-md-12">
+    <div class="card card-aside">
+        <a href="#" class="card-aside-column" style="background-image: url(/{{ xp.image-url }})"></a>
+        <div class="card-body d-flex flex-column">
+            <h4><a href="#">{{ xp.title }}</a></h4>
+            <div class="">{{ xp.body }}</div>
+        </div>
+    </div>
+</div>
+{% endfor %}

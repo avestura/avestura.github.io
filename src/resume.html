@@ -1,0 +1,65 @@
+---
+title: Resume
+layout: default
+menu: resume
+---
+{% assign aryan = site.data.users[0] %}
+<div class="container">
+    <div class="page-header">
+        <div>
+            <h1 class="page-title">Resume</h1>
+            <div class="page-description">
+                <ul class="list-inline list-inline-dots m-0">
+                    <li class="list-inline-item">Aryan Ebrahimpour</li>
+                    <li class="list-inline-item">Software Engineer</li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="/aryan_data/cv.pdf">Download Resume as PDF</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="/aryan_data/University Grades.pdf">View University Grades as PDF</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-cards">
+        <div class="col-md-8">
+            {% capture raw_about %}{% include aryan/about.md %}{% endcapture %}
+            {% assign aryan_about = raw_about | markdownify %}
+            {% include cards/card.html title="About Me" close-button=false content=aryan_about %}
+        </div>
+        <div class="col-md-4">
+            {% capture info %}
+                <p>Age:</p>
+                <p>Email:</p>
+                <p>Phone:</p>
+            {% endcapture %}
+            {% capture raw_info %}{% include aryan/basic-info.md %}{% endcapture %}
+            {% assign aryan_info = raw_info | markdownify %}
+
+            {% include cards/card.html title="Basic Information" close-button=false content=aryan_info %}
+        </div>
+
+        <div class="col-md-12 alert alert-icon alert-success" role="alert">
+                <i class="fe fe-chevrons-up mr-2" aria-hidden="true"></i> Click on chevrons to see more details. 
+        </div>
+
+        {% include skill-viewer.html title="Programming Skills" area="programming" skill-source=site.data.skills.programming  %}
+
+        {% include skill-viewer.html title="Career Skills" area="career" skill-source=site.data.skills.career  %}
+
+        {% include skill-viewer.html title="General Skills" area="general" skill-source=site.data.skills.general  %}
+
+        {% include skill-viewer.html title="Language Skills" area="language" skill-source=site.data.skills.language  %}
+
+        {% include work-xp-viewer.html  %}
+
+        {% include education-viewer.html  %}
+
+
+    </div>
+
+
+
+</div>

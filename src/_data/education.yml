@@ -1,0 +1,20 @@
+- title: Bachelor of Computer Engineering
+  subtitle: Bachelor's Degree
+  location: Guilan University
+  years: 2015 - 2019
+  body:
+     At Guilan University, I began to show other students my knowledge about programming and web design.
+     After that, I became a member of the academic forum and participated in an ACM programming contest with the result of
+     honorable mention. I had in-class [presentations](https://github.com/0xaryan/Presentation) about Agile software methodologies,
+     DevOps, Refactoring and Bad smells in code,
+     the difference between Windows and Linux OS processes and threads, SQL Server and Entity Framework related presentations,
+     Economical and social topics like Human Development Index, Informal Sector, etc.
+
+  image-url: assets/images/resume/guilan-uni.jpg
+
+- title: Mathematics and Physics
+  subtitle: High School
+  location: Eshragh High School
+  years: 2013 - 2015
+  body: In years of high school, I've studied Discrete mathematics, Differential mathematics, Chemistry, Static and Dynamic Physics, Geometry, Statistics, Probability and Persian literature. 
+  image-url: assets/images/resume/astaneh.jpg

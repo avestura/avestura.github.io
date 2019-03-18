@@ -1,0 +1,29 @@
+index:
+  name: Blog
+  icon: fe fe-feather
+  url: index.html
+
+projects:
+  name: Projects
+  icon: fe fe-briefcase
+  url: projects/index.html
+
+resume:
+  name: Resume
+  icon: fe fe-file-text
+  url: resume.html
+
+me:
+  name: About Me
+  icon: fe fe-info
+  url: profile.html
+
+legacy:
+  name: Legacy
+  icon: fe fe-box
+  subpages:
+    legacy_cv:
+      name: Legacy CV
+      icon: fe fe-file-text
+      url: cv/index.html
+

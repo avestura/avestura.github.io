@@ -13,7 +13,7 @@
 				{% for subitem in data.subpages %}
 					{% assign subindex = subitem[0] %}
 					{% assign subdata = subitem[1] %}
-					<a href="{{ subdata.url }}" class="dropdown-item {% if menu_levels[1] == subindex %}active{% endif %}">{{ subdata.name }}</a>
+					<a href="/{{ subdata.url }}" class="dropdown-item {% if menu_levels[1] == subindex %}active{% endif %}">{{ subdata.name }}</a>
 				{% endfor %}
 			</div>
 		{% endif %}

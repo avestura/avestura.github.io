@@ -1,7 +1,7 @@
 index:
   name: Blog
   icon: fe fe-feather
-  url: /
+  url: ""
 
 projects:
   name: Projects

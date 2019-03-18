@@ -1,22 +1,22 @@
 index:
   name: Blog
   icon: fe fe-feather
-  url: index.html
+  url: 
 
 projects:
   name: Projects
   icon: fe fe-briefcase
-  url: projects/index.html
+  url: projects
 
 resume:
   name: Resume
   icon: fe fe-file-text
-  url: resume.html
+  url: resume
 
 me:
   name: About Me
   icon: fe fe-info
-  url: profile.html
+  url: profile
 
 legacy:
   name: Legacy
@@ -25,5 +25,5 @@ legacy:
     legacy_cv:
       name: Legacy CV
       icon: fe fe-file-text
-      url: cv/index.html
+      url: cv
 

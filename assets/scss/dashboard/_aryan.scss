@@ -1,0 +1,10 @@
+ul.skill-tags {
+    list-style: none;
+}
+ul.skill-tags li::before {
+
+    content: '#';
+    margin-right: 6px;
+    margin-left: -6px;
+
+}

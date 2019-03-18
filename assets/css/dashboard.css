@@ -20100,3 +20100,7 @@ ul.skill-tags li::before {
   margin-left: -6px;
 
 }
+.page-description.edu-info {
+  margin-bottom: 10px;
+  margin-top: -10px;
+}

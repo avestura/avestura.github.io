@@ -1,7 +1,6 @@
 title: 0xaryan
 description: 0xaryan's Personal Website
 
-source: src
 host: 0.0.0.0
 
 permalink: /post/:title:output_ext

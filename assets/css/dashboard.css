@@ -19017,6 +19017,14 @@ svg {
   src: url("../fonts/feather/feather-webfont.eot?t=1501841394106#iefix") format("embedded-opentype"), url("../fonts/feather/feather-webfont.woff?t=1501841394106") format("woff"), url("../fonts/feather/feather-webfont.ttf?t=1501841394106") format("truetype"), url("../fonts/feather/feather-webfont.svg?t=1501841394106#feather") format("svg");
   /* iOS 4.1- */
 }
+@font-face {
+    font-family: Vazir Code;
+    src: url('../fonts/feather/Vazir-Code.eot');
+    src: url('../fonts/feather/Vazir-Code.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/feather/Vazir-Code.woff') format('woff'),
+         url('../fonts/feather/Vazir-Code.ttf') format('truetype');
+    font-weight: normal;
+  }
 
 .fe {
   font-family: 'feather' !important;
@@ -20080,4 +20088,15 @@ svg {
 
 .fe-zoom-out:before {
   content: "\ea06";
+}
+
+ul.skill-tags {
+  list-style: none;
+}
+ul.skill-tags li::before {
+
+  content: '#';
+  margin-right: 6px;
+  margin-left: -6px;
+
 }

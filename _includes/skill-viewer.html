@@ -14,9 +14,9 @@
             {% endfor %}
             </ul>
         {% endcapture %}
-        {% include cards/card.html collapsed=skill.collapsed title=skill.name close-button=false content=skill-doc show-footer=true footer-content=tags-list  %}
+        {% include cards/card.html show-fullscreen=true collapsed=skill.collapsed title=skill.name close-button=false content=skill-doc show-footer=true footer-content=tags-list  %}
     {% else %}
-        {% include cards/card.html collapsed=skill.collapsed title=skill.name close-button=false content=skill-doc show-footer=false  %}
+        {% include cards/card.html show-fullscreen=true collapsed=skill.collapsed title=skill.name close-button=false content=skill-doc show-footer=false  %}
     {%endif%}
 </div>
 {% endfor %}

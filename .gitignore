@@ -6,11 +6,9 @@ _site/
 /.asset-cache/
 .DS_Store
 /_test/
-assets/css/*.css
 assets/plugins/**/plugin.css
 assets/plugins/**/plugin.min.css
 generated-site
 deploy-site
 /commits.sh
-/assets/css/
 /vendor/

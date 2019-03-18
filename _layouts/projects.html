@@ -20,7 +20,7 @@ title: Documentation
 			<div class="list-group list-group-transparent mb-0">
 				{% for p in group.pages %}
 				{% assign doc = site.projects | where: "slug", p | first %}
-				<a href="/{{ doc.url }}" class="list-group-item list-group-item-action{% if page.url == doc.url %} active{% endif %}"><span class="icon mr-3"><i class="{{ doc.icon }}"></i></span>{{ doc.title }}</a>
+				<a href="{{ doc.url }}" class="list-group-item list-group-item-action{% if page.url == doc.url %} active{% endif %}"><span class="icon mr-3"><i class="{{ doc.icon }}"></i></span>{{ doc.title }}</a>
 				{% endfor %}
 			</div>
 			{% endfor %}

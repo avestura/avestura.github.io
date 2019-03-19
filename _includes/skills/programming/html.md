@@ -1,3 +1,3 @@
  I know HTML 5 and I've designed some templates for Blog.ir (A blogging service in Iran). I've also done some front-end projects for a company in Tehran, capital of Iran. I also know Bootstrap, a popular HTML framework.
 
- See the vanilla template I've created for my Events website without using any frameworks or 3rd party libraries: [Event Eater Template](https://0xaryan.aryan.software/EventTemplate/)
+ See the vanilla template I've created for my Events website without using any frameworks or 3rd party libraries: [Event Eater Template](https://aryan.software/EventTemplate/)

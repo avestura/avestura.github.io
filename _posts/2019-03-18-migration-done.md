@@ -5,6 +5,7 @@ description: I've updated my personal website to a newer version. Let's see wher
 image: assets/images/posts/migration.jpg
 categories: []
 tags: [pw, personal website, blog, jekyll, migrate]
+comments: true
 ---
 
 # Welcome

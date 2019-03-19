@@ -1,6 +1,7 @@
 ---
 layout: default
 menu: index
+comments: true
 permalink: /post/
 ---
 
@@ -8,18 +9,6 @@ permalink: /post/
 	{% include page-title.html title=post.title %}
 
 	<div class="row">
-		<div class="col-lg-3 order-lg-1 mb-4">
-			<a href="#" class="btn btn-block btn-primary mb-6">
-				<i class="fe fe-share-2 mr-2"></i>Share Post
-			</a>
-			{% capture tags_part %}
-				{% for tag in page.tags %}
-				<span class="tag">{{ tag }}</span>
-				{% endfor %}			
-			{% endcapture %}
-			{% include cards/card.html title="Tags" content=tags_part %}
-			
-		</div>
 		<div class="col-lg-9">
 			<div class="card">
 				<div class="card-body">
@@ -42,11 +31,29 @@ permalink: /post/
 				<div class="card-footer">
 					{%- assign user = site.data.users[0] -%}
 					<span class="tag">
-							<span class="tag-avatar avatar" style="background-image: url({{ site.base }}/{{ user.photo }})"></span>
-							{{user.name}}
+						<span class="tag-avatar avatar"
+							style="background-image: url({{ site.base }}/{{ user.photo }})"></span>
+						{{user.name}}
 					</span>
 				</div>
 			</div>
 		</div>
+		<div class="col-lg-3 order-lg-1 mb-4">
+			<a href="#" class="btn btn-block btn-primary mb-6">
+				<i class="fe fe-share-2 mr-2"></i>Share Post
+			</a>
+			{% capture tags_part %}
+			{% for tag in page.tags %}
+			<span class="tag">{{ tag }}</span>
+			{% endfor %}
+			{% endcapture %}
+			{% include cards/card.html title="Tags" content=tags_part %}
+
+		</div>
+
+		{% if page.comments %}
+			{% include disqus.html %}
+		{% endif %}
+
 	</div>
 </div>

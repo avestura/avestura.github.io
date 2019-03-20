@@ -2,7 +2,7 @@ programming:
   - name: F#
     source: fsharp.md
     collapsed: false
-    tags: []
+    tags: [ML]
 
   - name: C#
     source: csharp.md

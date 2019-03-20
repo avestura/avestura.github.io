@@ -53,7 +53,7 @@ permalink: /post/
 
 		{% if page.comments %}
 		<div class="col-lg-12 order-lg-2 col-md-12">
-			{% capture comments_section%}{% include commento.html %}{%endcapture%}
+			{% capture comments_section%}{% include disqus.html %}{%endcapture%}
 			{% include cards/card.html title="Comments" show-fullscreen=true content=comments_section %}
 		</div>
 		{% endif %}

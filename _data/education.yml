@@ -1,13 +1,13 @@
 - title: Bachelor of Computer Engineering
   subtitle: Bachelor's Degree
-  location: Guilan University
+  location: University of Guilan
   years: 2015 - 2019
   body:
-     At Guilan University, I began to show other students my knowledge about programming and web design.
+     At University of Guilan, I began to show other students my knowledge about programming and web design.
      After that, I became a member of the academic forum and participated in an ACM programming contest with the result of
      honorable mention. I had in-class [presentations](https://github.com/0xaryan/Presentation) about Agile software methodologies,
      DevOps, Refactoring and Bad smells in code,
-     the difference between Windows and Linux OS processes and threads, SQL Server and Entity Framework related presentations,
+     processes and threads, SQL Server and Entity Framework related presentations,
      Economical and social topics like Human Development Index, Informal Sector, etc.
 
   image-url: assets/images/resume/guilan-uni.jpg

@@ -1,1 +1,1 @@
- AutoHotkey is a free, open-source custom scripting language for Microsoft Windows. I can write scripts to do some of my tasks faster with it. 
+ I can write AutoHotkey scripts‌ to create keyboard shortcuts and macros to do some of my tasks faster with it.

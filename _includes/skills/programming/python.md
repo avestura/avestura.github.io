@@ -1,1 +1,0 @@
- I'm familiar with Python basics, but I don't know much about its BCL yet.

@@ -1,1 +1,1 @@
- I can create Plug-ins for Microsoft Office products. I've already created an extension for Microsoft Excell that can modify a sheet for easier question importing for Moodle. This project was a part of the Sabnaa project. 
+ I can create Plug-ins for Microsoft Office products. [I've already created an extension](https://github.com/0xaryan/ExcelMoodleAddin) for Microsoft Excel that can modify a sheet for easier question importing for [Moodle](https://moodle.org).

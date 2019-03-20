@@ -20104,3 +20104,7 @@ ul.skill-tags li::before {
   margin-bottom: 10px;
   margin-top: -10px;
 }
+
+.card-header {
+    cursor: pointer;
+}

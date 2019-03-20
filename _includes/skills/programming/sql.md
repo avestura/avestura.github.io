@@ -1,1 +1,1 @@
- I'm experienced in Microsoft SQL Server, MySQL, SQL-CE and SQLite. 
+ I've used Microsoft SQL Server, SQL-CE and SQLite as data and config storages of my Desktop applications.

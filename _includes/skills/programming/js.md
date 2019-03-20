@@ -1,1 +1,0 @@
- I'm experienced in JS and jQuery. I've used it to write client-side web apps and web extensions. 

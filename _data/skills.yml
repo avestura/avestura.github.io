@@ -2,7 +2,7 @@ programming:
   - name: F#
     source: fsharp.md
     collapsed: false
-    tags: [OCaml, ML, Idris, Haskell, Pure Functional, Dependant Typing]
+    tags: []
 
   - name: C#
     source: csharp.md
@@ -12,7 +12,7 @@ programming:
   - name: ASP.NET
     source: asp.md
     collapsed: true
-    tags: [ASP.NET Core, DI, Blazor, SignalR]
+    tags: []
 
   - name: WPF/UWP
     source: wpfuwp.md
@@ -27,12 +27,12 @@ programming:
   - name: Entity Framework
     source: ef.md
     collapsed: true
-    tags: [PowerShell Core, Windows PowerShell, PowerShell ISE]
+    tags: [EF Core]
 
   - name: Xamarin Technologies
     source: xamarin.md
     collapsed: true
-    tags: [Xamarin.Adnroid, Xamarin.Forms]
+    tags: []
 
   - name: Xaml
     source: xaml.md
@@ -52,22 +52,17 @@ programming:
   - name: HTML
     source: html.md
     collapsed: true
-    tags: [HTML5]
+    tags: []
 
   - name: CSS
     source: css.md
     collapsed: true
-    tags: [CSS3, Flex Box]
+    tags: [Flex Box]
 
   - name: Game Development
     source: gamedev.md
     collapsed: true
     tags: [Xenko, Godot, Unity]
-
-  - name: Javascript
-    source: js.md
-    collapsed: true
-    tags: [ECMA Script, TypeScript]
 
   - name: Browser Extension Development
     source: webext.md
@@ -79,11 +74,6 @@ programming:
     source: iot.md
     collapsed: true
     tags: [Windows 10 IoT Core, DIY]
-
-  - name: Python
-    source: python.md
-    collapsed: true
-    tags: [Python3]
 
   - name: C++
     source: cpp.md
@@ -136,18 +126,8 @@ career:
     collapsed: true
     tags: [VSCode]
 
-  - name: Photoshop
-    source: photoshop.md
-    collapsed: true
-    tags: []
-
   - name: Microsoft Office
     source: office.md
-    collapsed: true
-    tags: []
-
-  - name: IIS
-    source: iis.md
     collapsed: true
     tags: []
 

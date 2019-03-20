@@ -1,3 +1,1 @@
-ASP.NET MVC Core + Entity Framework = Monster
-
-I've done various projects with ASP.NET after I watched a fully professional video tutorial for ASP.NET MVC.
+I've done various projects with ASP.NET Core and I'm experienced with it's MVC pattern and DI System.

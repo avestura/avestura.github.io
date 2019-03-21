@@ -1,1 +1,1 @@
- DevOps makes everything faster and that's what I love about Software Engineering. I'm familiar with Agile Methodologies, Scrum, Unit Testing, CI/CD and other aspects of DevOps. I'm also experienced in GitHub and Visual Studio Team Services. 
+ DevOps makes everything faster and that's what I love about Software Engineering. I know some about Agile Methodologies, Scrum, Unit Testing, CI/CD and other aspects of DevOps. I'm also experienced in GitHub and Visual Studio Team Services. 

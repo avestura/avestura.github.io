@@ -17,3 +17,8 @@ me:
   name: About Me
   icon: fe fe-info
   url: profile
+
+contact:
+  name: Contact
+  icon: fe fe-message-circle
+  url: contact

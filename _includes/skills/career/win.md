@@ -1,1 +1,1 @@
- I know how to use WinAPI to create Shell Extensions for Windows. 
+ I know how to use the WinAPI to create Shell Extensions for Windows. 

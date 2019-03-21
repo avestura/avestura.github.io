@@ -17,13 +17,3 @@ me:
   name: About Me
   icon: fe fe-info
   url: profile
-
-legacy:
-  name: Legacy
-  icon: fe fe-box
-  subpages:
-    legacy_cv:
-      name: Legacy CV
-      icon: fe fe-file-text
-      url: cv
-

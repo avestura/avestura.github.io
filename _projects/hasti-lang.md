@@ -53,7 +53,7 @@ This language supports functional and object-oriented paradigms with a ML-like s
 		         | آس
 		         | عددی : عدد صحیح [0..10]
 
-کارت = کارت : (ارزش‌کارت * نوع‌کارت)
+کارت : نوع = (ارزش‌کارت * نوع‌کارت)
 
 کارت1 = کارت (آس ، پیک)
 کارت2 = کارت (عددی 10، خشت)

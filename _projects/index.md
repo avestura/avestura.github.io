@@ -1,5 +1,5 @@
 ---
-title: My Projects Section
+title: Home
 icon: fe fe-briefcase
 is-oss: false
 order: -1

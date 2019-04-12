@@ -2,4 +2,4 @@ menu:
   - title: My Projects Page
     pages: [index]
   - title: Projects
-    pages: [hasti-studio, hasti-lang, fsharp-pad, eyes-guard, bafgh, other]
+    pages: [bafgh, hasti-studio, hasti-lang, fsharp-pad, eyes-guard, other]

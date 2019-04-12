@@ -1,8 +1,8 @@
 ---
 title: Bafgh Automation
 icon: fe fe-briefcase
-is-oss: true
-source-link: https://github.com/0xaryan/EyesGuard
+is-oss: false
+source-link: https://github.com/0xaryan/BafghAutomation
 ---
 # Bafgh Automation Dashboard
 Bafgh Automation is an Enterprise Automation Application for a large company in Yazd. This app includes reading weightbridge data, submit data in local database and sync with server, drag and drop report designer and more...

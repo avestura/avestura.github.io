@@ -2,7 +2,7 @@ programming:
   - name: F#
     source: fsharp.md
     collapsed: false
-    tags: [ML, F# Scripts]
+    tags: [FAKE, Paket, SAFE Stack, Fable, Elmish, Saturn]
 
   - name: C#
     source: csharp.md

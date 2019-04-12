@@ -1,6 +1,6 @@
 ---
 title: Home
-icon: fe fe-briefcase
+icon: fe fe-home
 is-oss: false
 order: -1
 ---

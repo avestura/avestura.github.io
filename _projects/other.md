@@ -23,6 +23,3 @@ Implementation: [Ocisp](https://github.com/0xaryan/Ocisp)
 
 ### Guilan Data Structures
 All projects of Data Structure course in an integrated GUI application. [Browser source code in GitHub](https://github.com/0xaryan/GuilanDataStructures).
-
-### COM Weight Processor
-An Enterprise Automation Application for a large company in Yazd.

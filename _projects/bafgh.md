@@ -11,13 +11,13 @@ This project is written in both C# and F#.
 
 ## Screenshots
 #### Dashboard
-![Bafgh Automation App](/assets/images/projects/bafgh/dashboard.JPG)
+![Bafgh Automation App - Dashboard Image](/assets/images/projects/bafgh/dashboard.jpg)
 
 #### Report Designer
-![Bafgh Automation App](/assets/images/projects/bafgh/designer.JPG)
+![Bafgh Automation App - Report Designer Image](/assets/images/projects/bafgh/designer.jpg)
 
 #### Settings
-![Bafgh Automation App](/assets/images/projects/bafgh/settings.JPG)
+![Bafgh Automation App - Settings Image](/assets/images/projects/bafgh/settings.jpg)
 
 #### Item Codes Editor
-![Bafgh Automation App](/assets/images/projects/bafgh/itemcodes.JPG)
+![Bafgh Automation App - Item Codes Editor Image](/assets/images/projects/bafgh/itemcodes.jpg)

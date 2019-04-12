@@ -7,7 +7,7 @@ source-link: https://github.com/0xaryan/BafghAutomation
 # Bafgh Automation Dashboard
 Bafgh Automation is an Enterprise Automation Application for a large company in Yazd. This app includes reading weightbridge data, submit data in local database and sync with server, drag and drop report designer and more...
 
-This project is written in both C# and F#.
+This project is written in both [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and [F#](https://dotnet.microsoft.com/languages/fsharp).
 
 ## Screenshots
 #### Dashboard

@@ -10,7 +10,7 @@ comments: true
 
 # Using Tor outside of the Tor Browser
 
-If you love [Tor project](https://www.torproject.org/download) and used it a lot, you might want to know if it is possible to run Tor from command line instead of the browser, and if it is possible to use Tor services not just in Tor browser, but in other apps as well.
+If you love [Tor project](https://www.torproject.org/download) and used it a lot, you might want to know if it is possible to run Tor from command line instead of the browser, or to use its services not just in Tor browser, but in other apps as well.
 
 In this blog post I'm going to explain how to write a simple [PowerShell](https://github.com/PowerShell/PowerShell) script that helps you run Tor by simply invoking the hand-made `freedom` command, and use it in apps like [Telegram Messenger](https://telegram.org/).
 
@@ -49,7 +49,7 @@ C:\Program Files\PowerShell\6\profile.ps1
 The profile location is `C:\Program Files\PowerShell\6\profile.ps1`, so we need to create the `profile.ps1` in folder `C:\Program Files\PowerShell\6\` if it isn't already there. Anything we write there will run in every PowerShell host for all users, so as you might guessed, we will define our `freedom` there.
 
 #### Separating startup modules
-Because I want to easily access my PS profile scripts, I create the folder `C:\MyPowershellScripts` and write my codes there, then I'll import them in the `profile.ps1`.
+Because I want to easily access my PS profile scripts, I create a folder called `MyPowershellScripts` in drive `C`, and write my codes there, then I'll import them in the `profile.ps1`.
 So, create a file called `Start-Tor.ps1` in `C:\MyPowershellScripts` and then Import it using the `dot (.)` syntax.
 
 ```powershell
@@ -63,14 +63,14 @@ Write-Host "Hello World!"
 . C:\MyPowershellScripts\Start-Tor.ps1
 ```
 
-Now if you open a PowerShell host, you see the "Hello World" message, which means we're at the right position.
+Now if you open a PowerShell host, you see the "Hello World" message, which means we're at the excpected position.
 
 ## The `freedom` script
-Now we are ready to define our function inside the `Start-Tor.ps1` file, and we are sure that the PowerShell loads our function everytime it starts.
+Now we are ready to define our function inside the `Start-Tor.ps1` file, and we are sure that PowerShell loads our function everytime it starts.
 
-After you download and install the [Tor Browser](https://www.torproject.org/download), it not only installs the Tor Browser, but also an executable file called `tor.exe` which runs alongside its parent (the Tor Browser in general).
+After you download and install the [Tor Browser](https://www.torproject.org/download), it not only installs the Browser, but also an executable file called `tor.exe` which runs alongside its parent (the Tor Browser in general).
 
-Here we want to run `tor.exe` which serves the Tor services on a port (usually 9150), and set the parent the PowerShell host instead of the Tor Browser, so we need the Process ID of the current host, and we already have that with `$pid` variable.
+Here we want to run `tor.exe` which serves the Tor services on a port (usually 9150), and use the PowerShell host as parent instead of the Tor Browser, so we need the Process ID of the current host (and we already have that with `$pid` variable).
 
 #### Start-Tor Script
 ```powershell
@@ -111,7 +111,7 @@ function Start-Tor {
 All you need to do is to put suitable configs in the Configuration section of the script. Put the root installation folder of Tor Browser in `$torBrowser` varibale, and set your password for the current local Tor network using the `$TOR_Password`.
 
 #### Setting an alias
-Alias naming things are fun! At the end of the `Start-Tor.ps1` and after the function declaration you can alias `Start-Tor` to `freedom`, so you can run Tor easier!
+Alias naming is fun (and sometimes dangerous!). At the end of the `Start-Tor.ps1` and after the function declaration you can alias `Start-Tor` to `freedom`, so you can run Tor easier!
 
 ```powershell
 Set-Alias freedom Start-Tor

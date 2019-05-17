@@ -1,6 +1,18 @@
+- title: Master of Computer Engineering
+  subtitle: Master's Degree
+  location: Iran University of Science & Technology
+  link: http://www.iust.ac.ir/en
+  years: 2019 - 2021
+  body:
+     I've been accepted into Iran University of Science & Technology with Exceptional Talents Program and I will start my Master's
+     education this summer.
+
+  image-url: assets/images/resume/elmo-sanat-uni.jpg
+
 - title: Bachelor of Computer Engineering
   subtitle: Bachelor's Degree
   location: University of Guilan
+  link: https://guilan.ac.ir
   years: 2015 - 2019
   body:
      At University of Guilan, I began to share my knowledge about programming and web design with other students.

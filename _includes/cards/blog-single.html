@@ -3,6 +3,7 @@
 {% assign author = site.data.users[0] %}
 {% assign liked = include.liked | default: false %}
 {% assign truncate = include.truncate | default: 100 %}
+{% assign showProfile = include.showProfile | default: true %}
 
 <div class="card{% if type == 'aside' %} card-aside{% endif %}">
 	{% if type == 'image' %}
@@ -21,9 +22,9 @@
 		<div class="text-muted">{{ article.description | truncate: truncate }}</div>
 
 		<div class="d-flex align-items-center pt-5 mt-auto">
-			<div class="avatar avatar-md mr-3" style="background-image: url({{ site.base }}/{{ author.photo }})"></div>
+			{% if include.showProfile %}<div class="avatar avatar-md mr-3" style="background-image: url({{ site.base }}/{{ author.photo }})"></div>{% endif %}
 			<div>
-				<a href="{{ site.base }}/profile.html" class="text-default">{{ author.name }} {{ author.surname }}</a>
+				{% if include.showProfile %}<a href="{{ site.base }}/profile.html" class="text-default">{{ author.name }} {{ author.surname }}</a> {% endif %}
 				<small class="d-block text-muted">{{ article.date | date: '%B %d, %Y' }}</small>
 			</div>
 			<div class="ml-auto {% if liked %}text-red{% else %}text-muted{% endif %}">

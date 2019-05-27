@@ -12,3 +12,5 @@ generated-site
 deploy-site
 /commits.sh
 /vendor/
+
+.ionide/

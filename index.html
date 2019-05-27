@@ -6,11 +6,11 @@ menu: index
 
 <div class="container">
 
-	{% include page-title.html title="0xaryan's Blog" %}
+	{% include page-title.html title="Latest Blog Posts" %}
 
 	<div class="row row-cards row-deck">
 		{% for article in site.posts %}
-		<div class="col-lg-6">
+		<div class="col-md-12">
 			{% include cards/blog-single.html article=article type="aside" aside-class="w-50" truncate=200 %}
 		</div>
 		{% endfor %}

@@ -8,8 +8,6 @@ tags: [Tor, PowerShell]
 comments: true
 ---
 
-# Using Tor outside of the Tor Browser
-
 If you love [Tor project](https://www.torproject.org/download) and use it a lot, you might want to know if it is possible to run Tor from command line instead of the browser, or to use its services not just in Tor browser, but in other apps as well.
 
 In this blog post I'm going to explain how to write a simple [PowerShell](https://github.com/PowerShell/PowerShell) script that helps you run Tor by simply invoking the hand-made `freedom` command, and use it in apps like [Telegram Messenger](https://telegram.org/).

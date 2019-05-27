@@ -5,10 +5,12 @@ host: 0.0.0.0
 
 permalink: /post/:title:output_ext
 
+url: "https://aryan.software"
 plugins:
   - jekyll-tidy
   - jekyll-toc
   - jekyll-random
+  - jekyll-sitemap
 
 exclude:
   - regenerate-images.sh

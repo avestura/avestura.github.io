@@ -2,4 +2,4 @@ menu:
   - title: My Projects Page
     pages: [index]
   - title: Projects
-    pages: [bafgh, hasti-studio, hasti-lang, fsharp-pad, eyes-guard, other]
+    pages: [bafgh, hasti-studio, hasti-lang, fsharp-pad, eyes-guard, vhdl-pingpong, ocisp, network-lab, saman-log, excel-moodle, event-template, other]

@@ -1,4 +1,4 @@
-WPF and UWP are my UI frameworks of choice. Almost all of my desktop projects are written with these frameworks
+WPF and UWP are my UI frameworks of choice. Almost all of my desktop projects are written in these frameworks
 I'm skilled in many aspects of these frameworks such as:
 
 - Creating animations

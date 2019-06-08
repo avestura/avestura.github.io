@@ -13,6 +13,11 @@ resume:
   icon: fe fe-file-text
   url: resume
 
+presentations:
+  name: Presentations
+  icon: fe fe-cast
+  url: presentations
+
 me:
   name: About Me
   icon: fe fe-info

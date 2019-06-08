@@ -1,0 +1,39 @@
+<div class="card">
+        <table class="table card-table table-vcenter">
+            {% for pres in site.data.presentations %}
+            <tr>
+                <td class="text-center"><img style="box-shadow: 1px 2px 4px #898989" src="/assets/images/presentations/{{ pres.image }}" alt="" class="h-8"></td>
+                <td>
+                    {{ pres.name }}
+                </td>
+                <td class="text-left text-muted d-none d-md-table-cell text-nowrap">
+                    {% for tag in pres.tags %}
+					<span class="tag">{{ tag }}</span>
+					{% endfor %}
+                </td>
+                <td class="text-left text-muted d-none d-md-table-cell text-nowrap">
+                    <i class="{{ pres.flag }}" data-toggle="tooltip" title="" data-original-title="{{ pres.language }}"></i>
+                    {{ pres.language }}
+                </td>
+                <td class="text-center text-muted d-none d-md-table-cell text-nowrap">{% if pres.notes %} <a {{ if pres.notes }} data-toggle="tooltip" title="" data-original-title="{{ pres.notes }}" {{ endif}} href="javascript:void(0)">Info</a> {% else %} (No description) {% endif %}</td>
+                <td class="text-left">
+                    {% if pres.links.pptx %}
+                    <img src="/assets/images/pressentation-type/pptx.png" style="width: 24px"/> <a target="_blank" href="{{ pres.links.pptx }}">PowerPoint</a>
+                        {% if pres.links.pdf %}<br />{%endif%}
+                    {% endif %}
+                    {% if pres.links.pdf %}
+                    <img src="/assets/images/pressentation-type/pdf.png" style="width: 24px"/> <a target="_blank" href="{{ pres.links.pdf }}">PDF</a>
+                        {% if pres.links.word %}<br />{%endif%}
+                    {% endif %}
+                    {% if pres.links.word %}
+                    <img src="/assets/images/pressentation-type/word.png" style="width: 24px"/> <a target="_blank" href="{{ pres.links.word }}">Word</a>
+                        {% if pres.links.online %}<br />{%endif%}
+                    {% endif %}
+                    {% if pres.links.online %}
+                    <img src="/assets/images/pressentation-type/online.png" style="width: 24px"/> <a target="_blank" href="{{ pres.links.online }}">Online</a>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>

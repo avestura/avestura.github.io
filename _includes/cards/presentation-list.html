@@ -1,5 +1,16 @@
 <div class="card">
         <table class="table card-table table-vcenter">
+                <thead>
+                    <tr>
+                        <th class="text-center">Preview</th>
+                        <th>Title</th>
+                        <th>Tags</th>
+                        <th>Language</th>
+                        <th>Description</th>
+                        <th>Download</th>
+                    </tr>
+                </thead>
+                <tbody>
             {% for pres in site.data.presentations %}
             <tr>
                 <td class="text-center"><img style="box-shadow: 1px 2px 4px #898989" src="/assets/images/presentations/{{ pres.image }}" alt="" class="h-8"></td>
@@ -35,5 +46,6 @@
                 </td>
             </tr>
             {% endfor %}
+        </tbody>
         </table>
     </div>

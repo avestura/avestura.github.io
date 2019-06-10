@@ -32,11 +32,6 @@ menu: resume
             {% include cards/card.html title="About Me" close-button=false content=aryan_about %}
         </div>
         <div class="col-md-4">
-            {% capture info %}
-                <p>Age:</p>
-                <p>Email:</p>
-                <p>Phone:</p>
-            {% endcapture %}
             {% capture raw_info %}{% include aryan/basic-info.md %}{% endcapture %}
             {% assign aryan_info = raw_info | markdownify %}
 

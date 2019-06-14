@@ -1,0 +1,7 @@
+<div class="row">
+{% for proj in site.data.projects.others %}
+    <div class="col-md-6">
+        {% include cards/icon-box.html href=proj.href icon=proj.icon description=proj.description subtitle=proj.subtitle color=proj.color %}
+    </div>
+{% endfor %}
+</div>

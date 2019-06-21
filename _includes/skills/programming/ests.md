@@ -1,0 +1,1 @@
+I know ECMAScript and its new features.

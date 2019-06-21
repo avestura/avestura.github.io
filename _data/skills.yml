@@ -49,6 +49,11 @@ programming:
     collapsed: true
     tags: []
 
+  - name: ECMAScript
+    source: ests.md
+    collapsed: true
+    tags: [javascript, ES6, ES7, ES8, ES9]
+
   - name: HTML
     source: html.md
     collapsed: true

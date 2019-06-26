@@ -6,6 +6,7 @@ image: assets/images/posts/tor-logo.png
 categories: []
 tags: [Tor, PowerShell]
 comments: true
+language: english
 ---
 
 If you love [Tor project](https://www.torproject.org/download) and use it a lot, you might want to know if it is possible to run Tor from command line instead of the browser, or to use its services not just in Tor browser, but in other apps as well.

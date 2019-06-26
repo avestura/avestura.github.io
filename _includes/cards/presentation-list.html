@@ -12,6 +12,11 @@
                 </thead>
                 <tbody>
             {% for pres in site.data.presentations %}
+            
+            {% for l in site.data.languages %}{% if l.id == pres.language %}
+            {% assign lang = l %}
+            {% endif %}{% endfor %}
+
             <tr>
                 <td class="text-center"><img style="box-shadow: 1px 2px 4px #898989" src="/assets/images/presentations/{{ pres.image }}" alt="" class="h-8"></td>
                 <td>
@@ -23,8 +28,8 @@
 					{% endfor %}
                 </td>
                 <td class="text-left text-muted d-none d-md-table-cell text-nowrap">
-                    <i class="{{ pres.flag }}" data-toggle="tooltip" title="" data-original-title="{{ pres.language }}"></i>
-                    {{ pres.language }}
+                    <i class="flag {{ lang.flag }}" data-toggle="tooltip" title="" data-original-title="{{ lang.name }}"></i>
+                    {{ lang.name }}
                 </td>
                 <td class="text-center text-muted d-none d-md-table-cell text-nowrap">{% if pres.notes %} <a {{ if pres.notes }} data-toggle="tooltip" title="" data-original-title="{{ pres.notes }}" {{ endif}} href="javascript:void(0)">Info</a> {% else %} (No description) {% endif %}</td>
                 <td class="text-left">

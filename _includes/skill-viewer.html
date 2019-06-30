@@ -8,9 +8,11 @@
     {% assign skill-doc = skill-raw | markdownify %}
     {% if skill.tags.size != 0 %}
         {% capture tags-list %}
+            <div class="tags">
             {% for tag in skill.tags%}
                 <span class="tag">{{ tag }}</span>
             {% endfor %}
+            </div>
         {% endcapture %}
         {% include cards/card.html show-fullscreen=true collapsed=skill.collapsed title=skill.name close-button=false content=skill-doc show-footer=true footer-content=tags-list  %}
     {% else %}

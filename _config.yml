@@ -36,6 +36,9 @@ exclude:
 collections:
   projects:
     output: true
+  
+  talks:
+    output: true
 
 defaults:
   - scope:

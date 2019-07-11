@@ -1,0 +1,21 @@
+---
+layout: default
+title: Talks
+menu: talks
+permalink: /talks/
+---
+
+<div class="container">
+
+	{% include page-title.html title="Talks" %}
+
+	<div class="row row-cards row-deck">
+		{% for talk in site.talks %}
+		<div class="col-md-12">
+			{% include cards/talk-index.html talk=talk type="aside" aside-class="w-50" truncate=200 %}
+		</div>
+		{% endfor %}
+	</div>
+	
+
+</div>

@@ -18,6 +18,11 @@ presentations:
   icon: fe fe-cast
   url: presentations
 
+talks:
+    name: Talks
+    icon: fe fe-tv
+    url: talks
+
 me:
   name: About Me
   icon: fe fe-info
@@ -27,3 +32,4 @@ contact:
   name: Contact
   icon: fe fe-message-circle
   url: contact
+

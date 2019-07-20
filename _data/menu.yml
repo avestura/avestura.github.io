@@ -13,6 +13,11 @@ resume:
   icon: fe fe-file-text
   url: resume
 
+opensource:
+  name: Open Source
+  icon: fe fe-github
+  url: opensource
+
 presentations:
   name: Presentations
   icon: fe fe-cast

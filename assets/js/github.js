@@ -30,7 +30,7 @@ $ghProfileGists.innerText = userResp.public_gists;
 
 const createAuthorNode = isMe => {
     const $authorNode = document.createElement("span");
-    $authorNode.class = "tag";
+    $authorNode.className = "tag";
 
     if(isMe){ $authorNode.innerHTML = '<span class="tag-avatar avatar" style="background-image: url(./aryan_data/Aryan.jpg)"></span>Aryan'; }
     else    { $authorNode.innerHTML = '<span class="tag-avatar avatar""><i class="fa fa-code-fork"></i></span>Fork'; }
@@ -45,12 +45,10 @@ const formatSize = size => {
 const createLangNode = lang => {
     if(lang != null) { 
         const $langTag = document.createElement("div");
-        $langTag.class = "tag tag-info";
+        $langTag.classList.add("tag");
+        $langTag.classList.add("tag-info");
         $langTag.innerHTML =
-        `<div class="tag tag-info">
-        ${lang}
-        <span class="tag-addon"><i class="fe fe-code"></i></span>
-        </div>`;
+        `${lang}<span class="tag-addon"><i class="fe fe-code"></i></span>`;
 
         return $langTag;
     }

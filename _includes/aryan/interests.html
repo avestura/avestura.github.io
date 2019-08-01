@@ -1,0 +1,14 @@
+{% for item in site.data.personal %}
+<p class="font-weight-bold"><i class="{{item.icon}}"></i> {{item.title}}</p>
+
+<div class="tags">
+{% for tag in item.tags %}
+<div class="tag tag-{{item.color}}">
+    {{tag}}
+    <span class="tag-addon"><i class="{{item.icon}}"></i></span>
+</div>
+{% endfor %}
+</div>
+
+<br />
+{% endfor %}

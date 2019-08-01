@@ -1,0 +1,34 @@
+- title: Music
+  icon: fe fe-music
+  color: blue
+  tags: [Eminem, NF, Hip-Hop, Rap, Shayea, Ho3ein]
+
+- title: Poems
+  icon: fe fe-book
+  color: lime
+  tags: [Classic Persian Poems, Hafez, Molana]
+
+- title: Books
+  icon: fe fe-book-open
+  color: orange
+  tags: [STEM Books, Technical Books, Science Books, Modern Science, History Books]
+
+- title: Technology
+  icon: fe fe-cpu
+  color: danger
+  tags: [Microsoft, Microsoft Research, Functional Programming]
+
+- title: Politics
+  icon: fe fe-flag
+  color: gray-dark
+  tags: [Liberal]
+
+- title: Live/Travel Locations
+  icon: fe fe-map
+  color: green
+  tags: [Scotland, USA, Norway, Italy, Europe]
+
+- title: Games
+  icon: fe fe-target
+  color: purple
+  tags: [Massive Multiplayer, Strategic, Advanture, RPG, Assasin's Creed Series, Rise of Nations, Warcraft Series]    

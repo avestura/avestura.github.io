@@ -10,9 +10,18 @@ menu: me
 			{% include cards/profile.html %}
 		</div>
 		<div class="col-lg-8">
-			{% capture profile_raw %}{% include aryan/profile.md %}{% endcapture %}
-			{% assign profile_md = profile_raw | markdownify %}
-			{% include cards/card.html title="Aryan Ebrahimpour" content=profile_md %}
+			<div class="row">
+				<div class="col-lg-12">
+					{% capture profile_raw %}{% include aryan/profile.md %}{% endcapture %}
+					{% assign profile_md = profile_raw | markdownify %}
+					{% include cards/card.html title="Aryan Ebrahimpour" content=profile_md %}
+				</div>
+				<div class="col-lg-12">
+						{% capture profile_raw %}{% include aryan/interests.html %}{% endcapture %}
+						{% assign profile_md = profile_raw | markdownify %}
+						{% include cards/card.html title="Personal Interests" content=profile_md %}
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

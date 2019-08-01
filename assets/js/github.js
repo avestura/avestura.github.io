@@ -31,10 +31,8 @@ $ghProfileGists.innerText = userResp.public_gists;
 const createAuthorNode = isMe => {
     const $authorNode = document.createElement("span");
     $authorNode.className = "tag";
-
     if(isMe){ $authorNode.innerHTML = '<span class="tag-avatar avatar" style="background-image: url(./aryan_data/Aryan.jpg)"></span>Aryan'; }
     else    { $authorNode.innerHTML = '<span class="tag-avatar avatar""><i class="fa fa-code-fork"></i></span>Fork'; }
-
     return $authorNode;
 }
 const formatSize = size => {
@@ -63,7 +61,7 @@ const createRow = (id, repoName, repoDesc, repoUrl, createdDate, size, stars, fo
 
     $rowNode.innerHTML = `
     <td>
-        <div><span style="cursor: help" data-toggle="tooltip" data-original-title="${repoDesc}">${repoName}</span></div>
+        <div><span style="cursor: help" data-toggle="tooltip" title="${repoDesc}" data-original-title="${repoDesc}">${repoName}</span></div>
         <div class="small text-muted">
             Created: ${applyFormat(createdDate)}
         </div>

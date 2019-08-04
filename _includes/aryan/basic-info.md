@@ -1,7 +1,9 @@
 {% assign aryan = site.data.users[0] %}
 Age: <span id="year-of-birth"></span>
 
-Email: [{{aryan.email}}](mailto:Oxaryan@outlook.com.com?subject=Contact Aryan Ebrahimpour)
+Email: [{{aryan.email}}](mailto:{{aryan.email}}?subject=Contact Aryan Ebrahimpour)
+
+Work: [{{aryan.workemail}}](mailto:{{aryan.workemail}}?subject=Contact Aryan Ebrahimpour)
 
 <div class="btn-list">
     <a target="_blank" href="https://stackoverflow.com/users/7825034/aryan?tab=profile" class="btn btn-secondary btn-sm"><i class="fa fa-stack-overflow"></i> Stack Overflow</a>

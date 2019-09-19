@@ -1,18 +1,19 @@
 - title: System Group
   body: I work as .NET Developer in [SystemGroup](https://systemgroup.net/en).
-  
+
 
         System Group is a big compnay in Tehran, Iran which provides enterprise-scale ERP systems, cloud solutions and Automation and Accounting services
         and software.
-      
+
   image-url: assets/images/resume/systemgroup-official.jpg
   years: 2019 - Present
   type: Full-Time
   website-url: https://systemgroup.net/en
+  image-contain: true
 
 
 - title: Freelancer
-  body:  Because I am a student in a university far from a city, I can't work in a company, but instead I work as freelancer and do side projects in my spare time. I build desktop and web applications right now. 
+  body:  Because I am a student in a university far from a city, I can't work in a company, but instead I work as freelancer and do side projects in my spare time. I build desktop and web applications right now.
   image-url: assets/images/resume/freelancer.jpg
   years: 2015 - 2019
   type: Freelancer
@@ -20,7 +21,7 @@
 
 
 - title: Desktop Developer
-  body:   I develop WPF Desktop Industrial applications for [HOMATEC](http://homatec.ir) company, such as CityCloud cloud file storage app, Bafgh Automation app, etc. 
+  body:   I develop WPF Desktop Industrial applications for [HOMATEC](http://homatec.ir) company, such as CityCloud cloud file storage app, Bafgh Automation app, etc.
   image-url: assets/images/resume/desktop-app.jpg
   years: 2016 - 2018
   type: Full-Time and Remote

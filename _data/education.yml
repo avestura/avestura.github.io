@@ -23,10 +23,20 @@
      Economical and social topics like Human Development Index, Informal Sector, etc.
 
   image-url: assets/images/resume/guilan-uni.jpg
+  submodule:
+    title: Hasti Language
+    inlineText: Final BCS Project
+    image: 'assets/images/projects/HastiLang.png'
+    body:
+      Hasti-Lang is an educational Persian functional programming language, created and developed in University of
+      Guilan as my BCS project
+    link:
+      text: Project's GitHub
+      location: https://github.com/hasti-lang
 
 - title: Mathematics and Physics
   subtitle: High School
   location: Eshragh High School
   years: 2013 - 2015
-  body: In years of high school, I've studied Discrete mathematics, Differential mathematics, Chemistry, Static and Dynamic Physics, Geometry, Statistics, Probability and Persian literature. 
+  body: In years of high school, I've studied Discrete mathematics, Differential mathematics, Chemistry, Static and Dynamic Physics, Geometry, Statistics, Probability and Persian literature.
   image-url: assets/images/resume/Astaneh.jpg

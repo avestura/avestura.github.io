@@ -5,7 +5,7 @@
 {% for xp in site.data.work-xp %}
 <div class="col-md-12">
     <div class="card card-aside">
-        <a href="#" class="card-aside-column" style="background-image: url(/{{ xp.image-url }})"></a>
+        <a href="#" class="card-aside-column" style="background-image: url(/{{ xp.image-url }});{% if xp.image-contain %}background-size: contain{%endif%}"></a>
         <div class="card-body d-flex flex-column">
             <h4>{{ xp.title }}</h4>
             <div class="page-description edu-info">

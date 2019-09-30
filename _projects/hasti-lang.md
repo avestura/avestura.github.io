@@ -1,8 +1,8 @@
 ---
 title: Hasti-Lang
 icon: fe fe-file
-is-oss: false
-source-link: 
+is-oss: true
+source-link: https://github.com/hasti-lang
 ---
 
 # Hasti-Lang

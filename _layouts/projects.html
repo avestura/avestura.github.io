@@ -13,7 +13,7 @@ title: Projects
 			<a href="{{ page.source-link }}" target="_blank" class="btn btn-block btn-primary mb-6">
 				<i class="fe fe-github mr-2"></i>Browse source code
 			</a>
-			{% endif %} 
+			{% endif %}
 
 			{% for group in site.data.projects.menu %}
 			<!-- {{ group.title }} -->
@@ -46,6 +46,10 @@ title: Projects
 						{% endif %}
 
 						{{ content | toc_generate }}
+
+						{% if page.is-oss %}
+						<p>Click on <b>Browse Source Code</b> to see the project in GitHub.</p>
+						{% endif %}
 					</div>
 				</div>
 			</div>

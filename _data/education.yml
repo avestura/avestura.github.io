@@ -28,8 +28,8 @@
     inlineText: Final BCS Project
     image: 'assets/images/projects/HastiLang.png'
     body:
-      Hasti-Lang is an educational Persian functional programming language, created and developed in University of
-      Guilan as my BCS project
+      '[Hasti-Lang](https://hasti-lang.ir) is an educational Persian functional programming language, created and developed in University of
+      Guilan as my BCS project'
     link:
       text: Project's GitHub
       location: https://github.com/hasti-lang

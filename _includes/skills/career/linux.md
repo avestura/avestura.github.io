@@ -1,1 +1,1 @@
- Linux is a great operating system with a great community and an open door to the free world. Although my primary operating system is Windows, I still use WSL and Bash on Windows. 
+ Linux is a great operating system with a great community and an open door to the free world. My secondary Operating System is [NixOS](https://nixos.org/) and although my primary one is Windows, I still use WSL and Bash on Windows.

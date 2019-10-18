@@ -11,8 +11,6 @@ const repoReq = await fetch('https://api.github.com/users/0xaryan/repos?per_page
 const userResp = await userReq.json();
 const repoResp = await repoReq.json();
 
-console.log(repoResp.length);
-
 const $ghProfileImage     = document.getElementById("gh-profile-image"),
       $ghProfileName      = document.getElementById("gh-profile-name"),
       $ghProfileBio       = document.getElementById("gh-profile-bio"),
@@ -41,7 +39,7 @@ const formatSize = size => {
 }
 
 const createLangNode = lang => {
-    if(lang != null) { 
+    if(lang != null) {
         const $langTag = document.createElement("div");
         $langTag.classList.add("tag");
         $langTag.classList.add("tag-info");
@@ -95,16 +93,17 @@ const createRow = (id, repoName, repoDesc, repoUrl, createdDate, size, stars, fo
     return $rowNode;
 }
 
+repoResp.sort((x, y) => y.stargazers_count - x.stargazers_count);
 repoResp.forEach(r => {
-    
+
     const $rowNode = createRow(r.id,
                                r.name,
                                r.description,
                                r.html_url,
-                               r.created_at, 
-                               r.size, 
-                               r.stargazers_count, 
-                               r.forks, 
+                               r.created_at,
+                               r.size,
+                               r.stargazers_count,
+                               r.forks,
                                r.open_issues_count,
                                r.owner.html_url,
                                r.license);

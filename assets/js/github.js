@@ -17,7 +17,8 @@ const $ghProfileImage     = document.getElementById("gh-profile-image"),
       $ghProfileRepos     = document.getElementById("gh-profile-repos"),
       $ghProfileGists     = document.getElementById("gh-profile-gists"),
       $ghProfileFollowers = document.getElementById("gh-profile-followers"),
-      $ghRepoContainer    = document.getElementById("gh-repo-container");
+	  $ghRepoContainer    = document.getElementById("gh-repo-container")
+	  $loadingRow         = document.getElementById("gh-loading-row");
 
 $ghProfileImage.src = userResp.avatar_url;
 $ghProfileName.innerText = userResp.name;
@@ -93,6 +94,7 @@ const createRow = (id, repoName, repoDesc, repoUrl, createdDate, size, stars, fo
     return $rowNode;
 }
 
+$ghRepoContainer.removeChild($loadingRow)
 repoResp.sort((x, y) => y.stargazers_count - x.stargazers_count);
 repoResp.forEach(r => {
 

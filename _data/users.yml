@@ -1,7 +1,7 @@
 ---
 - name: Aryan
   surname: Ebrahimpour
-  gender: make
+  gender: male
   region: Iran
   age: 21
   title: mr
@@ -13,8 +13,8 @@
   email: Oxaryan@outlook.com
   uniemail: ebrahimpour_h@comp.iust.ac.ir
   workemail: AryanE@systemgroup.net
-  username: victoria_84
-  password: King84${
+  username: 0xaryan
+  password: lol
   credit_card:
     expiration: 2/23
     number: 0

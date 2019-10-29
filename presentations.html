@@ -18,9 +18,12 @@ menu: presentations
 				</div>
 			</div>
 		</div>
+	{% for entry in site.data.presentations %}
 	<div class="row">
 		<div class="col-md-12">
-			{% include cards/presentation-list.html %}
+			<h4>{% if entry.icon %}<i class="fe fe-{{ entry.icon }}">&nbsp;</i>{% endif %}{{ entry.name }}</h4>
+			{% include cards/presentation-list.html pres=entry.items %}
 		</div>
 	</div>
+	{% endfor %}
 </div>

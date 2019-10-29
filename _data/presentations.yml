@@ -1,9 +1,23 @@
 - name: Software Engineering
   icon: monitor
   items:
+    - name: Functional Programming
+      image: fp.jpg
+      tags: [fp, F#, .NET]
+      language: english
+      links:
+        pdf: https://github.com/0xaryan/Presentation/raw/master/Software/Software%20Engineering/Functional%20Programming/Functional%20Programming%20-%20PDFEdition.pdf
+
+    - name: Functional Programming Design Patterns
+      image: fp-design-pattern.jpg
+      tags: [fp, haskell, F#]
+      language: english
+      links:
+        pptx: https://github.com/0xaryan/Presentation/raw/master/Software/Software%20Engineering/Functional%20Programming/Functional%20Programming%20Design%20Patterns.pptx
+
     - name: Windows Presentation Foundation
       image: wpf.jpg
-      tags: [software]
+      tags: [mvvm]
       language: persian
       notes:
       links:

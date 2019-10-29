@@ -100,7 +100,7 @@ repoResp.forEach(r => {
 
     const $rowNode = createRow(r.id,
                                r.name,
-                               r.description,
+                               r.description || "(No description provided)",
                                r.html_url,
                                r.created_at,
                                r.size,

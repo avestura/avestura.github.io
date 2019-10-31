@@ -36,11 +36,13 @@ menu: resume
             {% assign aryan_info = raw_info | markdownify %}
 
             {% include cards/card.html title="Basic Information" close-button=false content=aryan_info %}
-        </div>
+		</div>
 
-        <div class="col-md-12 alert alert-icon alert-success" role="alert">
-                <i class="fe fe-alert-circle mr-2" aria-hidden="true"></i> <span>Please <b>open the description boxes</b> to see more information about the topic.</span>
-        </div>
+		<div class="col-md-12">
+			<div class="alert alert-icon alert-success" role="alert">
+					<i class="fe fe-alert-circle mr-2" aria-hidden="true"></i> <span>Please <b>open the description boxes</b> to see more information about the topic.</span>
+			</div>
+		</div>
 
         {% include skill-viewer.html title="Programming Topics" area="programming" skill-source=site.data.skills.programming  %}
 

@@ -50,18 +50,17 @@ const createLangNode = lang => {
 const applyFormat = date => `${date.substr(0, 4)}`;
 
 const createRow = response => {
-	const r = response;
-	const id = r.id,
-	      repoName = r.name,
-	      repoDesc = r.description || "(No description provided)",
-	      repoUrl = r.html_url,
-	      createdDate = r.created_at,
-	      size = r.size,
-	      stars = r.stargazers_count,
-	      forks = r.forks,
-	      issues = r.open_issues_count,
-	      ownerUrl = r.owner.html_url,
-	      license = r.license;
+	const id = response.id,
+	      repoName = response.name,
+	      repoDesc = response.description || "(No description provided)",
+	      repoUrl = response.html_url,
+	      createdDate = response.created_at,
+	      size = response.size,
+	      stars = response.stargazers_count,
+	      forks = response.forks,
+	      issues = response.open_issues_count,
+	      ownerUrl = response.owner.html_url,
+	      license = response.license;
 
     const rowNode = document.createElement("tr");
     const rawLicense = (license || {name: "No License"} ).name;

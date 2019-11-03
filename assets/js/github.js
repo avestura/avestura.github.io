@@ -111,7 +111,8 @@ repoResp.forEach(r => {
     ghRepoContainer.appendChild(rowNode);
     document.getElementById(`author-node-${r.id}`).appendChild(createAuthorNode(!r.fork));
     document.getElementById(`lang-${r.id}`).appendChild(createLangNode(r.language));
-    if(r.archived || r.disabled){document.getElementById(`status-${r.id}`).innerHTML = '<div class="tag tag-purple">archived<span class="tag-addon"><i class="fe fe-book"></i></span></div>';
+    if(r.archived || r.disabled) {
+		document.getElementById(`status-${r.id}`).innerHTML = '<div class="tag tag-purple">archived<span class="tag-addon"><i class="fe fe-book"></i></span></div>';
     }
 });
 

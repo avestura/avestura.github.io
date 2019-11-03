@@ -38,11 +38,11 @@ const createAuthorNode = isMe => {
 const formatSize = size => (size < 1500) ? `${size} KB` : `${(size/1000.0).toFixed(1)} MB`;
 
 const createLangNode = lang => {
-    if(lang != null) {
-        const $langTag = document.createElement("div");
-        $langTag.classList.add("tag", "tag-info");
-        $langTag.innerHTML = `${lang}<span class="tag-addon"><i class="fe fe-code"></i></span>`;
-        return $langTag;
+    if(lang) {
+        const langTag = document.createElement("div");
+        langTag.classList.add("tag", "tag-info");
+        langTag.innerHTML = `${lang}<span class="tag-addon"><i class="fe fe-code"></i></span>`;
+        return langTag;
     }
     else return document.createElement("div");
 };

@@ -43,8 +43,9 @@ const createLangNode = lang => {
         langTag.classList.add("tag", "tag-info");
         langTag.innerHTML = `${lang}<span class="tag-addon"><i class="fe fe-code"></i></span>`;
         return langTag;
-    }
-    else return document.createElement("div");
+	}
+
+    return document.createElement("div");
 };
 
 const applyFormat = date => date.substring(0, 4);

@@ -47,7 +47,7 @@ const createLangNode = lang => {
     else return document.createElement("div");
 };
 
-const applyFormat = date => date.substr(0, 4);
+const applyFormat = date => date.substring(0, 4);
 
 const createRow = response => {
 	const id = response.id,

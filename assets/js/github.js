@@ -69,7 +69,7 @@ const createRow = response => {
 
     rowNode.innerHTML = `
     <td>
-        <div><span style="cursor: help" data-toggle="tooltip" title="${repoDesc}" data-original-title="${repoDesc}">${repoName}</span></div>
+        <div><a href="${repoUrl}" data-toggle="tooltip" title="${repoDesc}" data-original-title="${repoDesc}">${repoName}</a></div>
         <div class="small text-muted">
             Created: ${applyFormat(createdDate)}
         </div>

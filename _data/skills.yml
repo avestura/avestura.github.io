@@ -52,7 +52,7 @@ programming:
   - name: ECMAScript
     source: ests.md
     collapsed: true
-    tags: [javascript, ES6, ES7, ES8, ES9]
+    tags: [TypeScript, JavaScript, ES6, ES7, ES8, ES9]
 
   - name: HTML
     source: html.md
@@ -80,10 +80,10 @@ programming:
     collapsed: true
     tags: [Windows 10 IoT Core, DIY]
 
-  - name: C++
+  - name: C/C++
     source: cpp.md
     collapsed: true
-    tags: []
+    tags: [MPI, POSIX]
 
   - name: Assembly
     source: assembly.md

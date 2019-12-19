@@ -1,1 +1,1 @@
- I'm experienced in POSIX APIs (processes, fork features, p_threads, ...). I also have a [GUI Tic-Tac-Toe game](https://github.com/0xaryan/doozGame) project fully written in C++ CLR.
+ I'm novice in C and C++, however I'm experienced in some of POSIX APIs (processes, fork features, p_threads, ...), and solved some [distributed-systems problems using C and MPI](https://github.com/0xaryan/mpich-playground). I also have a [GUI Tic-Tac-Toe game](https://github.com/0xaryan/doozGame) project fully written in C++.

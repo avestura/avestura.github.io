@@ -1,4 +1,4 @@
-WPF and UWP are my UI frameworks of choice. Almost all of my desktop projects are written in these frameworks
+WPF, UWP and lately Avalonia, are my UI frameworks of choice. Almost all of my desktop projects are written in these frameworks
 I'm skilled in many aspects of these frameworks such as:
 
 - Creating animations
@@ -6,7 +6,7 @@ I'm skilled in many aspects of these frameworks such as:
 - Text rendering features
 - Model-View-ViewModel Pattern
 - WPF and UWP Controls (DataGrid, Layouts, ... )
-- Custom Behaviors and other `Microsoft.Expression.Interaction` features
+- Custom Behaviors and other Expression Interaction features
 - Creating Custom User Controls
 - Data Binding
 - Creating Styles and Templates

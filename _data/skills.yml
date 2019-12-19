@@ -14,7 +14,7 @@ programming:
     collapsed: true
     tags: []
 
-  - name: WPF/UWP
+  - name: WPF/UWP/Avalonia
     source: wpfuwp.md
     collapsed: true
     tags: [XAML, WinRT API, App Packaging, Windows Desktop Bridge]

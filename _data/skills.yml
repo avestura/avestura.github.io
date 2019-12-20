@@ -3,11 +3,13 @@ programming:
     source: fsharp.md
     collapsed: false
     tags: [FAKE, Paket, SAFE Stack, Fable, Elmish, Saturn]
+    github-lang: f%23
 
   - name: C#
     source: csharp.md
     collapsed: false
     tags: [.NET Core, .NET Standard, .NET Framework, Mono, CLR, CLI, ECMA]
+    github-lang: c%23
 
   - name: ASP.NET
     source: asp.md
@@ -23,6 +25,7 @@ programming:
     source: powershell.md
     collapsed: true
     tags: [PowerShell Core, Windows PowerShell, PowerShell ISE]
+    github-lang: powershell
 
   - name: Entity Framework
     source: ef.md
@@ -58,11 +61,13 @@ programming:
     source: html.md
     collapsed: true
     tags: []
+    github-lang: html
 
   - name: CSS
     source: css.md
     collapsed: true
     tags: [Flex Box]
+    github-lang: css
 
   - name: Game Development
     source: gamedev.md
@@ -89,16 +94,19 @@ programming:
     source: assembly.md
     collapsed: true
     tags: [ATMega32, AVR, Intel]
+    github-lang: assembly
 
   - name: VHDL
     source: vhdl.md
     collapsed: true
     tags: [Computer Aided Design]
+    github-lang: vhdl
 
   - name: Java
     source: java.md
     collapsed: true
     tags: [Java FX]
+    github-lang: java
 
 career:
   - name: UI / UX

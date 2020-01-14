@@ -31,7 +31,7 @@
 				{{ include.options }}
 			{% else %}
 				{% if include.show-extra-button %}
-				<a href="{{ include.extra-url }}"><i class="fe fe-{{include.extra-icon}}"></i></a>
+				<a href="{{ include.extra-url }}" data-toggle="card-unbind" target="_blank"><i class="fe fe-{{include.extra-icon}}"></i></a>
 				{% endif %}
 				{% if include.show-fullscreen %}
 				<a href="#" class="card-options-fullscreen" data-toggle="card-fullscreen"><i class="fe fe-maximize"></i></a>

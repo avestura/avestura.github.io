@@ -57,6 +57,8 @@ $(document).ready(function() {
     return false;
   });
 
+  $('[data-toggle="card-unbind"]').unbind('click');
+
   /**  */
   if ($('[data-sparkline]').length) {
     let generateSparkline = function($elem, data, params) {

@@ -1,112 +1,191 @@
 programming:
-  - name: F#
-    source: fsharp.md
-    collapsed: false
-    tags: [FAKE, Paket, SAFE Stack, Fable, Elmish, Saturn]
-    github-lang: f%23
+  - name: Programming Languages
+    icon: code
+    items:
+       - name: F#
+         source: fsharp.md
+         collapsed: true
+         tags: [FAKE, Paket, SAFE Stack, Fable, Elmish, Saturn]
+         github-lang: f%23
 
-  - name: C#
-    source: csharp.md
-    collapsed: false
-    tags: [.NET Core, .NET Standard, .NET Framework, Mono, CLR, CLI, ECMA]
-    github-lang: c%23
+       - name: C#
+         source: csharp.md
+         collapsed: true
+         tags: [.NET Core, .NET Standard, .NET Framework, Mono, CLR, CLI, ECMA]
+         github-lang: c%23
 
-  - name: ASP.NET
-    source: asp.md
-    collapsed: true
-    tags: []
+       - name: PowerShell
+         source: powershell.md
+         collapsed: true
+         tags: [PowerShell Core, Windows PowerShell, PowerShell ISE]
+         github-lang: powershell
 
-  - name: WPF/UWP/Avalonia
-    source: wpfuwp.md
-    collapsed: true
-    tags: [XAML, WinRT API, App Packaging, Windows Desktop Bridge]
+       - name: ECMAScript
+         source: ests.md
+         collapsed: true
+         tags: [TypeScript, JavaScript, ES6, ES7, ES8, ES9]
 
-  - name: PowerShell
-    source: powershell.md
-    collapsed: true
-    tags: [PowerShell Core, Windows PowerShell, PowerShell ISE]
-    github-lang: powershell
+       - name: C/C++
+         source: cpp.md
+         collapsed: true
+         tags: [MPI, POSIX]
 
-  - name: Entity Framework
-    source: ef.md
-    collapsed: true
-    tags: [EF Core]
+       - name: Assembly
+         source: assembly.md
+         collapsed: true
+         tags: [ATMega32, AVR, Intel]
+         github-lang: assembly
 
-  - name: Xamarin Technologies
-    source: xamarin.md
-    collapsed: true
-    tags: []
+       - name: VHDL
+         source: vhdl.md
+         collapsed: true
+         tags: [Computer Aided Design]
+         github-lang: vhdl
 
-  - name: Xaml
-    source: xaml.md
-    collapsed: true
-    tags: [Markup Extensions, Attached Properties, Serialize/Deserialize]
+       - name: Java
+         source: java.md
+         collapsed: true
+         tags: [Java FX]
+         github-lang: java
 
-  - name: Microsoft Office Dev
-    source: officedev.md
-    collapsed: true
-    tags: []
 
-  - name: SQL
-    source: sql.md
-    collapsed: true
-    tags: []
+  - name: Web Frameworks and Technologies
+    icon: globe
+    items:
+        - name: ASP.NET
+          source: asp.md
+          collapsed: true
+          tags: []
 
-  - name: ECMAScript
-    source: ests.md
-    collapsed: true
-    tags: [TypeScript, JavaScript, ES6, ES7, ES8, ES9]
+        - name: Browser Extension Development
+          source: webext.md
+          collapsed: true
+          tags: [Javascript]
 
-  - name: HTML
-    source: html.md
-    collapsed: true
-    tags: []
-    github-lang: html
+        - name: SAFE-Stack
+          source: safe.md
+          collapsed: true
+          tags: [fsharp]
 
-  - name: CSS
-    source: css.md
-    collapsed: true
-    tags: [Flex Box]
-    github-lang: css
+  - name: GUI and Front-end
+    icon: layout
+    items:
+      - name: HTML
+        source: html.md
+        collapsed: true
+        tags: []
+        github-lang: html
+
+      - name: CSS
+        source: css.md
+        collapsed: true
+        tags: [Flex Box]
+        github-lang: css
+
+      - name: WPF/UWP/Avalonia
+        source: wpfuwp.md
+        collapsed: true
+        tags: [XAML, WinRT API, App Packaging, Windows Desktop Bridge]
+
+      - name: Xaml
+        source: xaml.md
+        collapsed: true
+        tags: [Markup Extensions, Attached Properties, Serialize/Deserialize]
+
+      - name: Vue.js
+        source: vue.md
+        collapsed: true
+        tags: []
+
+      - name: React
+        source: react.md
+        collapsed: true
+        tags: []
+
+  - name: Data
+    icon: database
+    items:
+       - name: SQL
+         source: sql.md
+         collapsed: true
+         tags: []
+
+       - name: Entity Framework
+         source: ef.md
+         collapsed: true
+         tags: [EF Core]
+
+  - name: Mobile
+    icon: smartphone
+    items:
+        - name: Xamarin Technologies
+          source: xamarin.md
+          collapsed: true
+          tags: []
+
+        - name: Fabulous
+          source: fabulous.md
+          collapsed: true
+          tags: [fsharp, elmish, mvu]
+
+  - name: Hardware
+    icon: cpu
+    items:
+        - name: Electronics / IoT / Arduino
+          source: iot.md
+          collapsed: true
+          tags: [DIY]
+
+        - name: Raspi
+          source: raspi.md
+          collapsed: true
+          tags: [Windows 10 IoT Core]
+
+        - name: FPGA
+          source: fpga.md
+          collapsed: true
+          tags: [VHDL]
+
+  - name: Cloud
+    icon: cloud
+    items:
+       - name: Cloud Computing
+         source: cc.md
+         collapsed: true
+         tags: []
+
+       - name: WSO2 SI / Siddhi
+         source: wso2si.md
+         collapsed: true
+         tags: []
 
   - name: Game Development
-    source: gamedev.md
-    collapsed: true
-    tags: [Xenko, Godot, Unity]
+    icon: target
+    items:
+        - name: Game Development
+          source: gamedev.md
+          collapsed: true
+          tags: [Xenko, Godot, Unity]
 
-  - name: Browser Extension Development
-    source: webext.md
-    collapsed: true
-    tags: [Javascript]
+        - name: Godot
+          source: godot.md
+          collapsed: true
+          tags: []
+
+        - name: Unity
+          source: unity.md
+          collapsed: true
+          tags: []
+
+  - name: Others
+    icon: box
+    items:
+       - name: Microsoft Office Dev
+         source: officedev.md
+         collapsed: true
+         tags: []
 
 
-  - name: IoT / Rasp / Arduino
-    source: iot.md
-    collapsed: true
-    tags: [Windows 10 IoT Core, DIY]
-
-  - name: C/C++
-    source: cpp.md
-    collapsed: true
-    tags: [MPI, POSIX]
-
-  - name: Assembly
-    source: assembly.md
-    collapsed: true
-    tags: [ATMega32, AVR, Intel]
-    github-lang: assembly
-
-  - name: VHDL
-    source: vhdl.md
-    collapsed: true
-    tags: [Computer Aided Design]
-    github-lang: vhdl
-
-  - name: Java
-    source: java.md
-    collapsed: true
-    tags: [Java FX]
-    github-lang: java
 
 career:
   - name: UI / UX

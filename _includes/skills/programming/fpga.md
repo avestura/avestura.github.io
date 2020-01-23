@@ -1,0 +1,1 @@
+I 've written a [ping pong game](https://github.com/0xaryan/PingPongGame_CAD_VGA) using a FPGA, supervised by my professor [Dr Mahdi Aminian](https://staff.guilan.ac.ir/mahdiaminian/index.php?a=0&lg=1).

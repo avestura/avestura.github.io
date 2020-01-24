@@ -5,6 +5,6 @@
 {% for item in include.source %}
 <div class="col-md-12">
 {% assign skill-doc = item.a | markdownify %}
-{% include cards/card.html title=item.q body=skill-doc collapsed=true %}
+{% include cards/card.html title=item.q body=skill-doc collapsed=false %}
 </div>
 {% endfor %}

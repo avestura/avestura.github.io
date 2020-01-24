@@ -1,9 +1,10 @@
 - title: System Group
-  body: I work as .NET Developer in [SystemGroup](https://systemgroup.net/en).
-
-
-        System Group is a big compnay in Tehran, Iran which provides enterprise-scale ERP systems, cloud solutions and Automation and Accounting services
+  body: I work in the DevOps team of the [SystemGroup](https://systemgroup.net/en), a large compnay in Tehran-Iran which provides
+        enterprise-scale ERP systems, cloud solutions, automation and accounting services
         and software.
+
+
+        I mainly use F#, C#, PowerShell, JavaScript and TypeScript for the projects.
 
   image-url: assets/images/resume/systemgroup-official.jpg
   years: 2019 - Present

@@ -11,6 +11,13 @@
   website-url: https://systemgroup.net/en
   image-contain: true
 
+- title: IUST Cloud Computing Center
+  body: I will soon start developing software systems for the [Cloud Computing Center of Iran University of Science and Technology](http://ccc.iust.ac.ir/) at its research labs,
+        supervised by [Dr Mehrdad Ashtiani](http://webpages.iust.ac.ir/m_ashtiani/).
+  type: Part-Time
+  website-url: http://ccc.iust.ac.ir
+  image-url: assets/images/resume/iust-ce.jpg
+  years: 2020 - Present
 
 - title: Freelancer
   body: Because I was a student in a university far from the city, I couldn't work in a company, but instead, I worked as a freelancer and done side projects in my spare time. I built desktop and web applications at the time.

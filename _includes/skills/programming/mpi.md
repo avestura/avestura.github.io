@@ -1,0 +1,1 @@
+I have experience in [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface). Check out my contribtuions in solving some problems using MPICH at [IUST open projects](https://github.com/iust-projects/mpich-playground).

@@ -146,7 +146,7 @@ programming:
           collapsed: true
           tags: [VHDL]
 
-  - name: Cloud
+  - name: Cloud and Distributed Systems
     icon: cloud
     items:
        - name: Cloud Computing
@@ -156,6 +156,11 @@ programming:
 
        - name: WSO2 SI / Siddhi
          source: wso2si.md
+         collapsed: true
+         tags: []
+
+       - name: MPI
+         source: mpi.md
          collapsed: true
          tags: []
 

@@ -10,3 +10,6 @@ items:
     - q: Which one do you prefer? Object-oriented or Functional Programming?
       a: Obviously Functional Programming. I find Functional Programming easier to reason about the code, and it helps you to do much
          more with less code. It's safer, and fits my soul. There are already sources in this website that proves this claim.
+
+    - q: Are you willing to work with us?
+      a: I'm always open to hear about new opportunities.

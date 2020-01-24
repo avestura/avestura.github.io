@@ -1,4 +1,4 @@
-WPF, UWP and lately Avalonia, are my UI frameworks of choice. Almost all of my desktop projects are written in these frameworks
+WPF, UWP and lately Avalonia (including [Avalonia.FuncUI](https://github.com/AvaloniaCommunity/Avalonia.FuncUI)), are my UI frameworks of choice. Almost all of my desktop projects are written in these frameworks.
 I'm skilled in many aspects of these frameworks such as:
 
 - Creating animations

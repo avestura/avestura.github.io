@@ -1,5 +1,5 @@
 {% assign aryan = site.data.users[0] %}
-Age: <span id="year-of-birth"></span> <span>(22 Dec 1997)</span>
+Age: <span id="year-of-birth"></span> <span>years old (22 Dec 1997)</span>
 
 Personal: [{{aryan.email}}](mailto:{{aryan.email}}?subject=Contact Aryan Ebrahimpour)<br>
 Academic: [{{aryan.uniemail}}](mailto:{{aryan.workemail}}?subject=Contact Aryan Ebrahimpour)<br>

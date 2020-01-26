@@ -1,5 +1,5 @@
 {% assign aryan = site.data.users[0] %}
-Age: <span id="year-of-birth"></span> <span>years old (22 Dec 1997)</span>
+Age: <span id="year-of-birth"></span> years old (as of <span id="now"></span>)
 
 Personal: [{{aryan.email}}](mailto:{{aryan.email}}?subject=Contact Aryan Ebrahimpour)<br>
 Academic: [{{aryan.uniemail}}](mailto:{{aryan.workemail}}?subject=Contact Aryan Ebrahimpour)<br>
@@ -13,4 +13,4 @@ Work: [{{aryan.workemail}}](mailto:{{aryan.workemail}}?subject=Contact Aryan Ebr
     <a target="_blank" href="https://t.me/Oxaryan" class="btn btn-secondary btn-sm"><i class="fa fa-telegram"></i> Telegram</a>
 </div>
 
-<script>document.addEventListener("DOMContentLoaded", function(event) { const birthday = new Date("22 Dec 1997");const ageDifMs = Date.now() - birthday.getTime();const ageDate = new Date(ageDifMs);const result =  Math.abs(ageDate.getUTCFullYear() - 1970);document.getElementById("year-of-birth").innerHTML = result;});</script>
+<script>document.addEventListener("DOMContentLoaded", function(event) { const birthday = new Date("22 Dec 1997");const ageDifMs = Date.now() - birthday.getTime();const ageDate = new Date(ageDifMs);const result =  Math.abs(ageDate.getUTCFullYear() - 1970);document.getElementById("year-of-birth").innerHTML = result; const months=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']; const now = new Date(Date.now()); const d = now.getDate(); const m = strArray[now.getMonth()]; const y = date.getFullYear(); document.getElementById("now").innerHTML = `${d} ${m} ${y}`});</script>

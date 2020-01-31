@@ -1,0 +1,48 @@
+---
+layout: default
+menu: projects
+comments: true
+---
+
+<div class="container">
+	{% include page-title.html title=post.title %}
+
+	<div class="row">
+		<div class="col-lg-12 col-md-12">
+			<div class="card">
+				<div class="card-body">
+
+					<div class="text-wrap p-lg-6">
+
+						{% if page.in_progress %}
+						<div class="alert alert-primary mt-5 mb-6">
+							<div><strong>Work in progress!</strong> More detailed post is coming soon.</div>
+						</div>
+						{% endif %}
+
+						{% if page.toc %}
+						{{ content | toc_only }}
+						{% endif %}
+
+						{{ content | toc_generate }}
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="tags">
+					{% for tag in page.tags %}
+					<span class="tag">{{ tag }}</span>
+					{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{% if page.comments %}
+		<div class="col-lg-12 order-lg-2 col-md-12">
+			{% capture comments_section%}{% include utteranc.html %}{%endcapture%}
+			{% include cards/card.html title="Comments" show-fullscreen=true content=comments_section %}
+		</div>
+		{% endif %}
+	</div>
+
+</div>

@@ -14,6 +14,6 @@ I know C# language features such as:
 - C# and .NET coding conventions
 - Socket Programming, Networking, Multithreading...
 
-I have more than 3 years of professional experience in C# and .NET. I work on lots of Desktop projects and I have experience in Web Development, Game Programming, and IoT development with C#. 
+I work on lots of Web and Desktop projects and I have experience in Game Programming and IoT development with C# as well. 
 
 Check out [my C# projects and contributions](https://github.com/0xaryan?utf8=%E2%9C%93&tab=repositories&q=&type=&language=c%23) in GitHub.

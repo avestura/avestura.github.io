@@ -1,1 +1,1 @@
-I've done some basic projects with python in Complex Dynamic Networks area using NetworkX, and Epidemics algorithms using ndlib. I analyzed data of websites like Twitter and Stackoverflow for useful information in these projects.
+I've done some basic projects with Python in complex dynamic networks area using NetworkX, and Epidemics algorithms using ndlib. I've analyzed data of websites like Twitter and Stackoverflow for useful information.

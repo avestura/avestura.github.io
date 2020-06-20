@@ -1,1 +1,1 @@
-I know ECMAScript and its new features.
+I know ECMAScript and TypeScript and their new features.

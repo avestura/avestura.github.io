@@ -36,17 +36,23 @@ programming:
          tags: [ATMega32, AVR, Intel]
          github-lang: assembly
 
-       - name: VHDL
-         source: vhdl.md
+       - name: Python
+         source: python.md
          collapsed: true
-         tags: [Computer Aided Design]
-         github-lang: vhdl
+         tags: [NetworkX, ndlib, Complex Networks]
+         github-lang: jupyter+notebook
 
        - name: Java
          source: java.md
          collapsed: true
          tags: [Java FX]
          github-lang: java
+
+       - name: VHDL
+         source: vhdl.md
+         collapsed: true
+         tags: [Computer Aided Design]
+         github-lang: vhdl
 
 
   - name: Web Frameworks and Technologies

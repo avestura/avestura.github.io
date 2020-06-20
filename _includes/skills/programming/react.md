@@ -1,1 +1,1 @@
-I have done some minimal projects with [React](https://reactjs.org/) and [React version of Fluent UI](https://github.com/microsoft/fluentui) so I have a basic knowledge about it.
+I have done some projects with [React](https://reactjs.org/) and [React version of Fluent UI](https://github.com/microsoft/fluentui) so I have some knowledge about JSX/TSX, React hooks and it's component system.

@@ -7,5 +7,5 @@ source-link: https://github.com/avestura/EventTemplate
 # Event Template
 
 Event Template is a vanilla template I’ve created for my Events website without using any frameworks or 3rd party libraries.
-See the template [here](http://aryan.software/EventTemplate).
+See the template [here](http://avestura.dev/EventTemplate).
 

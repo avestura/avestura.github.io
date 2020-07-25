@@ -5,7 +5,7 @@ host: 0.0.0.0
 
 permalink: /post/:title:output_ext
 
-url: "https://aryan.software"
+url: "https://avestura.dev"
 plugins:
   - jekyll-tidy
   - jekyll-toc
@@ -36,7 +36,7 @@ exclude:
 collections:
   projects:
     output: true
-  
+
   talks:
     output: true
 
@@ -71,7 +71,7 @@ github_url: https://github.com/avestura
 
 author:
    name: Aryan
-   url: https://aryan.software
+   url: https://avestura.dev
 
 colors:
   blue:

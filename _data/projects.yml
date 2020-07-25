@@ -18,7 +18,7 @@ menu:
 
 # Minimal projects with link to outside of the site
 others:
-  - href: "https://aryan.software/FuzzyOperators"
+  - href: "https://avestura.dev/FuzzyOperators"
     icon: "fe fe-briefcase"
     description: "Fuzzy Plot"
     subtitle: "Fuzzy T-Norm and S-Norm plotter."

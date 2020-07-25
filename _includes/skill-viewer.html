@@ -5,7 +5,7 @@
 {% for skill in include.skill-source %}
 <div class="col-md-6">
 	{% capture skill-raw %}{% include skills/{{include.area}}/{{skill.source}} %}{% endcapture %}
-	{% capture github-url %}https://github.com/0xaryan?utf8=%E2%9C%93&tab=repositories&q=&type=&language={{ skill.github-lang }}{% endcapture %}
+	{% capture github-url %}https://github.com/avestura?utf8=%E2%9C%93&tab=repositories&q=&type=&language={{ skill.github-lang }}{% endcapture %}
     {% assign skill-doc = skill-raw | markdownify %}
     {% if skill.tags.size != 0 %}
         {% capture tags-list %}

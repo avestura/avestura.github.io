@@ -6,8 +6,8 @@ const restConfig = {
         "Authorization": "token a2626cd7f6bfeaf960f11fb390d3f1ddd279c377"
     }
 };
-const userReq = await fetch('https://api.github.com/users/0xaryan', restConfig);
-const repoReq = await fetch('https://api.github.com/users/0xaryan/repos?per_page=100', restConfig);
+const userReq = await fetch('https://api.github.com/users/avestura', restConfig);
+const repoReq = await fetch('https://api.github.com/users/avestura/repos?per_page=100', restConfig);
 const userResp = await userReq.json();
 const repoResp = await repoReq.json();
 

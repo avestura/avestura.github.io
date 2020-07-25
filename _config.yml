@@ -67,7 +67,7 @@ jekyll_tidy:
   ignore_env: development
 
 base_color: '#467fcf'
-github_url: https://github.com/0xaryan
+github_url: https://github.com/avestura
 
 author:
    name: Aryan

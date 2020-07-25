@@ -2,7 +2,7 @@
 title: Event Template
 icon: fe fe-calendar
 is-oss: true
-source-link: https://github.com/0xaryan/EventTemplate
+source-link: https://github.com/avestura/EventTemplate
 ---
 # Event Template
 

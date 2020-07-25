@@ -1,4 +1,4 @@
-# 0xaryan's Personal Website
+# Avestura's Personal Website
 
 The content of this webpage is mine.
 

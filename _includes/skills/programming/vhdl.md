@@ -1,1 +1,1 @@
- As I mentioned in the IoT section, I've written a complete [ping-pong game in VHDL](https://github.com/0xaryan/PingPongGame_CAD_VGA), with help of other technologies like Xamarin, Windows IoT core, and RaspberryPi. 
+ As I mentioned in the IoT section, I've written a complete [ping-pong game in VHDL](https://github.com/avestura/PingPongGame_CAD_VGA), with help of other technologies like Xamarin, Windows IoT core, and RaspberryPi. 

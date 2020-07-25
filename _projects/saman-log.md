@@ -2,7 +2,7 @@
 title: Saman Log
 icon: fe fe-smartphone
 is-oss: true
-source-link: https://github.com/0xaryan/SamanLog
+source-link: https://github.com/avestura/SamanLog
 ---
 # Saman Log
 

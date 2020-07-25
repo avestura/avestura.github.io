@@ -2,7 +2,7 @@
 title: Excel-Moodle
 icon: fe fe-book-open
 is-oss: true
-source-link: https://github.com/0xaryan/ExcelMoodleAddin
+source-link: https://github.com/avestura/ExcelMoodleAddin
 ---
 # Excel Moodle Addin
 

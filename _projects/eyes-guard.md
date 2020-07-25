@@ -2,7 +2,7 @@
 title: Eyes Guard
 icon: fe fe-eye
 is-oss: true
-source-link: https://github.com/0xaryan/EyesGuard
+source-link: https://github.com/avestura/EyesGuard
 ---
 # Eyes Guard
 Eyes Guard is a health care app for protecting your eyes while working with your desktop PC.

@@ -220,14 +220,6 @@
         pptx: https://github.com/avestura/Pressentation/raw/master/Economics/Informal%20Sector/Informal%20Sector.pptx
         pdf: https://github.com/avestura/Pressentation/raw/master/Economics/Informal%20Sector/Informal%20Sector.pdf
 
-    - name: دانش خانواده
-      image: family.jpg
-      tags: [sociology]
-      language: persian
-      notes:
-      links:
-        pptx: https://github.com/avestura/Pressentation/raw/master/Sociology/DanesheKhanevade.pptx
-
     - name: نظریات اخلاق زیست محیطی
       image: zistmohit.jpg
       tags: [sociology]

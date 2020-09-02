@@ -15,6 +15,13 @@
       links:
         pptx: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Functional%20Programming/Functional%20Programming%20Design%20Patterns.pptx
 
+    - name: Robot Programming Languages and Systems
+      image: robotpl.jpg
+      tags: [Robotics, Programming Languages]
+      language: english
+      links:
+        pptx: https://github.com/avestura/Presentation/raw/master/Software/Robot%20Programming%20Languages.pptx
+
     - name: Windows Presentation Foundation
       image: wpf.jpg
       tags: [mvvm]

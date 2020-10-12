@@ -3,7 +3,7 @@
   color: blue
   tags: [Eminem, NF, Hip-Hop, Rap, Shayea, Ho3ein]
 
-- title: Poems
+- title: Literature
   icon: fe fe-book
   color: lime
   tags: [Classic Persian Poems, Hafez, Molana]
@@ -11,17 +11,17 @@
 - title: Books
   icon: fe fe-book-open
   color: orange
-  tags: [STEM Books, Technical Books, Science Books, Modern Science, History Books]
+  tags: [STEM Books, Science Books, Modern Science, History Books]
 
 - title: Technology
   icon: fe fe-cpu
   color: danger
-  tags: [Microsoft, Microsoft Research, Functional Programming]
+  tags: [Microsoft Research, Functional Programming]
 
 - title: Politics
   icon: fe fe-flag
   color: gray-dark
-  tags: [Liberal]
+  tags: [Secular, Liberal]
 
 - title: Live/Travel Locations
   icon: fe fe-map
@@ -31,4 +31,9 @@
 - title: Games
   icon: fe fe-target
   color: purple
-  tags: [Massive Multiplayer, Strategic, Advanture, RPG, Assasin's Creed Series, Rise of Nations, Warcraft Series]    
+  tags: [Massive Multiplayer, Strategic, Advanture, RPG, Assasin's Creed Series, Rise of Nations, Warcraft Series, Social deception games]
+
+- title: Favorite Youtubers
+  icon: fa fa-youtube-play
+  color: '#F70000'
+  tags: [PewDiePie, Dream, Jacksepticeye, Disguised Toast, LilyPichu, Technoblade, Wilbur Soot, Mr Beast, LazarBeam]

@@ -15,7 +15,7 @@
 
 - title: Technology
   icon: fe fe-cpu
-  color: danger
+  color: azure
   tags: [Microsoft Research, Functional Programming]
 
 - title: Politics
@@ -35,5 +35,5 @@
 
 - title: Favorite Youtubers
   icon: fa fa-youtube-play
-  color: '#F70000'
+  color: red
   tags: [PewDiePie, Dream, Jacksepticeye, Disguised Toast, LilyPichu, Technoblade, Wilbur Soot, Mr Beast, LazarBeam]

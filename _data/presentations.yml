@@ -28,7 +28,7 @@
       language: persian
       notes:
       links:
-        pptx: https://github.com/avestura/Pressentation/raw/master/Software/Windows%20Presentation%20Foundation.pptx
+        pptx: https://github.com/avestura/Presentation/raw/master/Software/Windows%20Presentation%20Foundation.pptx
         pdf:
         word:
         online:
@@ -40,7 +40,7 @@
       notes: Original Document
       links:
           pptx:
-          pdf: https://github.com/avestura/Pressentation/raw/master/Software/Operating%20Systems/Processes%20and%20Threads/Processes%20and%20Threads.pdf
+          pdf: https://github.com/avestura/Presentation/raw/master/Software/Operating%20Systems/Processes%20and%20Threads/Processes%20and%20Threads.pdf
           word:
           online:
 
@@ -51,7 +51,7 @@
       notes: Persian description of the original document
       links:
         pptx:
-        pdf: https://github.com/avestura/Pressentation/blob/master/Software/Operating%20Systems/Processes%20and%20Threads/Description.pdf
+        pdf: https://github.com/avestura/Presentation/blob/master/Software/Operating%20Systems/Processes%20and%20Threads/Description.pdf
         word:
         online:
 
@@ -61,7 +61,7 @@
       language: persian
       notes:
       links:
-        pptx: https://github.com/avestura/Pressentation/raw/master/Software/Software%20Engineering/Software%20Testing.ppsx
+        pptx: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Software%20Testing.ppsx
         pdf:
         word:
         online:
@@ -73,7 +73,7 @@
       notes:
       links:
         pptx:
-        pdf: https://github.com/avestura/Pressentation/raw/master/Software/Software%20Engineering/Regression%20Testing%20of%20Database%20Applications%20-%20Presentation.pdf
+        pdf: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Regression%20Testing%20of%20Database%20Applications%20-%20Presentation.pdf
         word:
         online:
 
@@ -84,7 +84,7 @@
       notes:
       links:
         pptx:
-        pdf: https://github.com/avestura/Pressentation/blob/master/Software/Software%20Engineering/Refactoring.pdf
+        pdf: https://github.com/avestura/Presentation/blob/master/Software/Software%20Engineering/Refactoring.pdf
         word:
         online:
 
@@ -94,8 +94,8 @@
       language: english
       notes: English slides of the original document
       links:
-        pptx: https://github.com/avestura/Pressentation/blob/master/Software/Software%20Engineering/Refactoring%20-%20Slides.pptx
-        pdf: https://github.com/avestura/Pressentation/blob/master/Software/Software%20Engineering/Refactoring%20-%20Slides.pdf
+        pptx: https://github.com/avestura/Presentation/blob/master/Software/Software%20Engineering/Refactoring%20-%20Slides.pptx
+        pdf: https://github.com/avestura/Presentation/blob/master/Software/Software%20Engineering/Refactoring%20-%20Slides.pdf
         word:
         online:
 
@@ -106,7 +106,7 @@
       notes:
       links:
         pptx:
-        pdf: https://github.com/avestura/Pressentation/blob/master/Software/Software%20Engineering/DevOps.pdf
+        pdf: https://github.com/avestura/Presentation/blob/master/Software/Software%20Engineering/DevOps.pdf
         word:
         online:
 
@@ -116,8 +116,8 @@
       language: english
       notes:
       links:
-        pptx: https://github.com/avestura/Pressentation/raw/master/Software/Software%20Engineering/Unit%20Testing/Unit%20Testing.pptx
-        pdf: https://github.com/avestura/Pressentation/raw/master/Software/Software%20Engineering/Unit%20Testing/Unit%20Testing.pdf
+        pptx: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Unit%20Testing/Unit%20Testing.pptx
+        pdf: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Unit%20Testing/Unit%20Testing.pdf
         word:
         online:
 
@@ -127,8 +127,8 @@
       language: persian
       notes:
       links:
-        pptx: https://github.com/avestura/Pressentation/blob/master/Software/Software%20Engineering/Software%20Production%20Process%20Models/Software%20Production%20Process%20Models.pptx
-        pdf: https://github.com/avestura/Pressentation/raw/master/Software/Software%20Engineering/Software%20Production%20Process%20Models/Software%20Production%20Process%20Models.pdf
+        pptx: https://github.com/avestura/Presentation/blob/master/Software/Software%20Engineering/Software%20Production%20Process%20Models/Software%20Production%20Process%20Models.pptx
+        pdf: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Software%20Production%20Process%20Models/Software%20Production%20Process%20Models.pdf
         word:
         online:
 
@@ -142,7 +142,7 @@
       language: persian
       notes:
       links:
-        pdf: https://github.com/avestura/Pressentation/raw/master/Software/Database/SQLServer-Join-Demo.pdf
+        pdf: https://github.com/avestura/Presentation/raw/master/Software/Database/SQLServer-Join-Demo.pdf
 
 - name: Hardware
   icon: activity
@@ -153,7 +153,7 @@
       language: persian
       notes:
       links:
-        pdf: https://github.com/avestura/Pressentation/raw/master/Hardware/Microprocessor/Report%201%20-%20Dancing%20Light.pdf
+        pdf: https://github.com/avestura/Presentation/raw/master/Hardware/Microprocessor/Report%201%20-%20Dancing%20Light.pdf
 
     - name: Microprocessor Report 3 - 7 Segment
       image: micro-sevenseg.jpg
@@ -161,7 +161,7 @@
       language: persian
       notes:
       links:
-        pdf: https://github.com/avestura/Pressentation/raw/master/Hardware/Microprocessor/Report%203%20-%207Segment.pdf
+        pdf: https://github.com/avestura/Presentation/raw/master/Hardware/Microprocessor/Report%203%20-%207Segment.pdf
 
     - name: Microprocessor Report 5 - Dot Matrix
       image: micro-dotmatrix.jpg
@@ -169,7 +169,7 @@
       language: persian
       notes:
       links:
-        pdf: https://github.com/avestura/Pressentation/raw/master/Hardware/Microprocessor/Report%205%20-%20DotMatrix.pdf
+        pdf: https://github.com/avestura/Presentation/raw/master/Hardware/Microprocessor/Report%205%20-%20DotMatrix.pdf
 
 - name: Network
   icon: cloud
@@ -217,8 +217,8 @@
       language: persian
       notes:
       links:
-        pptx: https://github.com/avestura/Pressentation/raw/master/Economics/Informal%20Sector/Informal%20Sector.pptx
-        pdf: https://github.com/avestura/Pressentation/raw/master/Economics/Informal%20Sector/Informal%20Sector.pdf
+        pptx: https://github.com/avestura/Presentation/raw/master/Economics/Informal%20Sector/Informal%20Sector.pptx
+        pdf: https://github.com/avestura/Presentation/raw/master/Economics/Informal%20Sector/Informal%20Sector.pdf
 
     - name: نظریات اخلاق زیست محیطی
       image: zistmohit.jpg
@@ -226,7 +226,7 @@
       language: persian
       notes:
       links:
-        pdf: https://github.com/avestura/Pressentation/raw/master/Sociology/Nazariat%20Akhlagh%20Zist%20Mohiti.pdf
+        pdf: https://github.com/avestura/Presentation/raw/master/Sociology/Nazariat%20Akhlagh%20Zist%20Mohiti.pdf
 
     - name: Human Development Index
       image: hdi.jpg
@@ -234,7 +234,7 @@
       language: persian
       notes:
       links:
-        pptx: https://github.com/avestura/Pressentation/raw/master/Sociology/HDI/Human%20Development%20Index.pptx
+        pptx: https://github.com/avestura/Presentation/raw/master/Sociology/HDI/Human%20Development%20Index.pptx
 
     - name: Human Development Index    - Stats
       image: hdi.jpg
@@ -242,7 +242,7 @@
       language: persian
       notes: Stats of the original document
       links:
-        pptx: https://github.com/avestura/Pressentation/raw/master/Sociology/HDI/Human%20Development%20Index%20-%20Stats.pptx
+        pptx: https://github.com/avestura/Presentation/raw/master/Sociology/HDI/Human%20Development%20Index%20-%20Stats.pptx
 
     - name: Matthew Effect
       image: matthew.jpg
@@ -250,7 +250,7 @@
       language: persian
       notes:
       links:
-        pptx: https://github.com/avestura/Pressentation/raw/master/Sociology/Matthew%20Effect.pptx
+        pptx: https://github.com/avestura/Presentation/raw/master/Sociology/Matthew%20Effect.pptx
 
 - name: Math and Physics
   icon: pie-chart
@@ -261,8 +261,8 @@
       language: persian
       notes: These documents created in partrentship with @Nikronic
       links:
-        word: https://github.com/avestura/Pressentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Biotsavart%20.docx
-        pdf: https://github.com/avestura/Pressentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Biotsavart.pdf
+        word: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Biotsavart%20.docx
+        pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Biotsavart.pdf
 
     - name: Physics Lab - Galvanometer
       image: phylab.jpg
@@ -270,8 +270,8 @@
       language: persian
       notes: These documents created in partrentship with @Nikronic
       links:
-        word: https://github.com/avestura/Pressentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Galvanometer.docx
-        pdf: https://github.com/avestura/Pressentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Galvanometre.pdf
+        word: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Galvanometer.docx
+        pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Galvanometre.pdf
 
     - name: Physics Lab - Kirchhoff
       image: phylab.jpg
@@ -279,7 +279,7 @@
       language: persian
       notes: These documents created in partrentship with @Nikronic
       links:
-        pdf: https://github.com/avestura/Pressentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Kirchhoff.pdf
+        pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Kirchhoff.pdf
 
     - name: Physics Lab - RpLS
       image: phylab.jpg
@@ -287,8 +287,8 @@
       language: persian
       notes: These documents created in partrentship with @Nikronic
       links:
-        word: https://github.com/avestura/Pressentation/raw/master/Physics/Physics%20Lab/Lab%20-%20RpLS.docx
-        pdf: https://github.com/avestura/Pressentation/raw/master/Physics/Physics%20Lab/Lab%20-%20RpLS.pdf
+        word: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20RpLS.docx
+        pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20RpLS.pdf
 
     - name: Physics Lab - Inductor and capacitor
       image: phylab.jpg
@@ -296,8 +296,8 @@
       language: persian
       notes: These documents created in partrentship with @Nikronic
       links:
-        word: https://github.com/avestura/Pressentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Inductor%20and%20capacitor.docx
-        pdf: https://github.com/avestura/Pressentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Inductor%20and%20capacitor.pdf
+        word: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Inductor%20and%20capacitor.docx
+        pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Inductor%20and%20capacitor.pdf
 
     - name: Physics Lab - Escalation
       image: phylab.jpg
@@ -305,5 +305,5 @@
       language: persian
       notes: These documents created in partrentship with @Nikronic
       links:
-        word: https://github.com/avestura/Pressentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Escalation.docx
-        pdf: https://github.com/avestura/Pressentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Escalation.pdf
+        word: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Escalation.docx
+        pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Escalation.pdf

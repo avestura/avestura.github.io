@@ -4,6 +4,7 @@
     - name: Functional Programming
       image: fp.jpg
       tags: [fp, F#, .NET]
+      notes: Created for SystemGroup company
       language: english
       links:
         pdf: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Functional%20Programming/Functional%20Programming%20-%20PDFEdition.pdf
@@ -11,13 +12,15 @@
     - name: Functional Programming Design Patterns
       image: fp-design-pattern.jpg
       tags: [fp, haskell, F#]
+      notes: Presented in Iran University of Science and Technology (iust.ac.ir)
       language: english
       links:
         pptx: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Functional%20Programming/Functional%20Programming%20Design%20Patterns.pptx
 
     - name: Scheduling of Serverless Functions
       image: faas-scheduling.jpg
-      tags: [Scheduling, FaaS, Cloud, Serverless, BaaS]
+      tags: [Scheduling, FaaS, Cloud, Serverless]
+      notes: Presented in Iran University of Science and Technology (iust.ac.ir)
       language: english
       links:
         pdf: https://github.com/avestura/Presentation/raw/master/Software/Cloud/Scheduling%20of%20Serverless%20Functions.pdf
@@ -25,6 +28,7 @@
     - name: Robot Programming Languages and Systems
       image: robotpl.jpg
       tags: [Robotics, Programming Languages]
+      notes: Presented in University of Guilan (guilan.ac.ir)
       language: english
       links:
         pptx: https://github.com/avestura/Presentation/raw/master/Software/Robot%20Programming%20Languages.pptx
@@ -33,7 +37,7 @@
       image: wpf.jpg
       tags: [mvvm]
       language: persian
-      notes:
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
         pptx: https://github.com/avestura/Presentation/raw/master/Software/Windows%20Presentation%20Foundation.pptx
         pdf:
@@ -44,7 +48,7 @@
       image: process.jpg
       tags: [operating systems]
       language: english
-      notes: Original Document
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
           pptx:
           pdf: https://github.com/avestura/Presentation/raw/master/Software/Operating%20Systems/Processes%20and%20Threads/Processes%20and%20Threads.pdf
@@ -66,7 +70,7 @@
       image: test.jpg
       tags: [software engineering]
       language: persian
-      notes:
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
         pptx: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Software%20Testing.ppsx
         pdf:
@@ -77,7 +81,7 @@
       image: regtest.jpg
       tags: [software engineering]
       language: english
-      notes:
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
         pptx:
         pdf: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Regression%20Testing%20of%20Database%20Applications%20-%20Presentation.pdf
@@ -88,7 +92,7 @@
       image: refactor.jpg
       tags: [software engineering]
       language: persian
-      notes:
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
         pptx:
         pdf: https://github.com/avestura/Presentation/blob/master/Software/Software%20Engineering/Refactoring.pdf
@@ -110,7 +114,7 @@
       image: devops.jpg
       tags: [software engineering]
       language: persian
-      notes:
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
         pptx:
         pdf: https://github.com/avestura/Presentation/blob/master/Software/Software%20Engineering/DevOps.pdf
@@ -121,7 +125,7 @@
       image: test-en.jpg
       tags: [software engineering]
       language: english
-      notes:
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
         pptx: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Unit%20Testing/Unit%20Testing.pptx
         pdf: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Unit%20Testing/Unit%20Testing.pdf
@@ -132,7 +136,7 @@
       image: methodology.jpg
       tags: [software engineering]
       language: persian
-      notes:
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
         pptx: https://github.com/avestura/Presentation/blob/master/Software/Software%20Engineering/Software%20Production%20Process%20Models/Software%20Production%20Process%20Models.pptx
         pdf: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Software%20Production%20Process%20Models/Software%20Production%20Process%20Models.pdf
@@ -147,7 +151,7 @@
       image: join-demo.jpg
       tags: [database, sql]
       language: persian
-      notes:
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
         pdf: https://github.com/avestura/Presentation/raw/master/Software/Database/SQLServer-Join-Demo.pdf
 
@@ -158,7 +162,7 @@
       image: micro-dancing.jpg
       tags: [hardware, micro]
       language: persian
-      notes:
+      notes: Created in University of Guilan laboratories (guilan.ac.ir)
       links:
         pdf: https://github.com/avestura/Presentation/raw/master/Hardware/Microprocessor/Report%201%20-%20Dancing%20Light.pdf
 
@@ -166,7 +170,7 @@
       image: micro-sevenseg.jpg
       tags: [hardware, micro]
       language: persian
-      notes:
+      notes: Created in University of Guilan laboratories (guilan.ac.ir)
       links:
         pdf: https://github.com/avestura/Presentation/raw/master/Hardware/Microprocessor/Report%203%20-%207Segment.pdf
 
@@ -174,7 +178,7 @@
       image: micro-dotmatrix.jpg
       tags: [hardware, micro]
       language: persian
-      notes:
+      notes: Created in University of Guilan laboratories (guilan.ac.ir)
       links:
         pdf: https://github.com/avestura/Presentation/raw/master/Hardware/Microprocessor/Report%205%20-%20DotMatrix.pdf
 
@@ -185,7 +189,7 @@
       image: netlab.jpg
       tags: [network]
       language: english
-      notes: This is an online content
+      notes: This is an online content, Created in University of Guilan laboratories (guilan.ac.ir)
       links:
         online: https://networklab.readthedocs.io/en/latest/About/index.html
 
@@ -222,7 +226,7 @@
       image: informalsector.jpg
       tags: [economics]
       language: persian
-      notes:
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
         pptx: https://github.com/avestura/Presentation/raw/master/Economics/Informal%20Sector/Informal%20Sector.pptx
         pdf: https://github.com/avestura/Presentation/raw/master/Economics/Informal%20Sector/Informal%20Sector.pdf
@@ -231,7 +235,7 @@
       image: zistmohit.jpg
       tags: [sociology]
       language: persian
-      notes:
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
         pdf: https://github.com/avestura/Presentation/raw/master/Sociology/Nazariat%20Akhlagh%20Zist%20Mohiti.pdf
 
@@ -239,7 +243,7 @@
       image: hdi.jpg
       tags: [sociology]
       language: persian
-      notes:
+      notes: Presented in University of Guilan (guilan.ac.ir)
       links:
         pptx: https://github.com/avestura/Presentation/raw/master/Sociology/HDI/Human%20Development%20Index.pptx
 
@@ -255,7 +259,7 @@
       image: matthew.jpg
       tags: [sociology]
       language: persian
-      notes:
+      notes: Presented in University of Guilan dormitory (guilan.ac.ir)
       links:
         pptx: https://github.com/avestura/Presentation/raw/master/Sociology/Matthew%20Effect.pptx
 
@@ -266,7 +270,7 @@
       image: phylab.jpg
       tags: [physics]
       language: persian
-      notes: These documents created in partrentship with @Nikronic
+      notes: These documents created in partrentship with @Nikronic (nikronic.github.io)
       links:
         word: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Biotsavart%20.docx
         pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Biotsavart.pdf
@@ -275,7 +279,7 @@
       image: phylab.jpg
       tags: [physics]
       language: persian
-      notes: These documents created in partrentship with @Nikronic
+      notes: These documents created in partrentship with @Nikronic (nikronic.github.io)
       links:
         word: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Galvanometer.docx
         pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Galvanometre.pdf
@@ -284,7 +288,7 @@
       image: phylab.jpg
       tags: [physics]
       language: persian
-      notes: These documents created in partrentship with @Nikronic
+      notes: These documents created in partrentship with @Nikronic (nikronic.github.io)
       links:
         pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Kirchhoff.pdf
 
@@ -292,7 +296,7 @@
       image: phylab.jpg
       tags: [physics]
       language: persian
-      notes: These documents created in partrentship with @Nikronic
+      notes: These documents created in partrentship with @Nikronic (nikronic.github.io)
       links:
         word: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20RpLS.docx
         pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20RpLS.pdf
@@ -301,7 +305,7 @@
       image: phylab.jpg
       tags: [physics]
       language: persian
-      notes: These documents created in partrentship with @Nikronic
+      notes: These documents created in partrentship with @Nikronic (nikronic.github.io)
       links:
         word: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Inductor%20and%20capacitor.docx
         pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Inductor%20and%20capacitor.pdf
@@ -310,7 +314,7 @@
       image: phylab.jpg
       tags: [physics]
       language: persian
-      notes: These documents created in partrentship with @Nikronic
+      notes: These documents created in partrentship with @Nikronic (nikronic.github.io)
       links:
         word: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Escalation.docx
         pdf: https://github.com/avestura/Presentation/raw/master/Physics/Physics%20Lab/Lab%20-%20Escalation.pdf

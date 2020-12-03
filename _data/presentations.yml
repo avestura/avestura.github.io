@@ -15,6 +15,13 @@
       links:
         pptx: https://github.com/avestura/Presentation/raw/master/Software/Software%20Engineering/Functional%20Programming/Functional%20Programming%20Design%20Patterns.pptx
 
+    - name: Scheduling of Serverless Functions
+      image: faas-scheduling.jpg
+      tags: [Scheduling, FaaS, Cloud, Serverless, BaaS]
+      language: english
+      links:
+        pdf: https://github.com/avestura/Presentation/raw/master/Software/Cloud/Scheduling%20of%20Serverless%20Functions.pdf
+
     - name: Robot Programming Languages and Systems
       image: robotpl.jpg
       tags: [Robotics, Programming Languages]

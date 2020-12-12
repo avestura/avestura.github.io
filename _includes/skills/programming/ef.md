@@ -1,1 +1,1 @@
- Entity Framework is my favorite ORM. I use it in my Web and Desktop projects to manage databases in a simpler and better way. 
+ I've used EF in my Web and Desktop projects to manage databases in a simpler and better way. 

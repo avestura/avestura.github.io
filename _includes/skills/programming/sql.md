@@ -1,1 +1,1 @@
- I've used Microsoft SQL Server, SQL-CE and SQLite as data and config storages of my Desktop applications.
+ I've used Microsoft SQL Server, SQLite and a little bit Postgresql in my desktop and web applications.

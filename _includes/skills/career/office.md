@@ -1,1 +1,0 @@
- I'm experienced in Word, Excel, Power Point and Microsoft Power BI. 

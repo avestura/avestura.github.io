@@ -1,1 +1,0 @@
-I have done some projects with [React](https://reactjs.org/) and [React version of Fluent UI](https://github.com/microsoft/fluentui) so I have some knowledge about JSX/TSX, React hooks and it's component system.

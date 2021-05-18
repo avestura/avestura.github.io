@@ -1,1 +1,0 @@
- I can create Plug-ins for Microsoft Office products. [I've already created an extension](https://github.com/avestura/ExcelMoodleAddin) for Microsoft Excel that can modify a sheet for easier question importing for [Moodle](https://moodle.org).

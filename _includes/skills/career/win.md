@@ -1,1 +1,0 @@
- I know how to use the WinAPI to create Shell Extensions for Windows. 

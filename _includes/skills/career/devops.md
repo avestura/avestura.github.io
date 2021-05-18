@@ -1,1 +1,0 @@
- DevOps makes everything faster and that's what I love about Software Engineering. I know some about Agile Methodologies, Scrum, Unit Testing, CI/CD and other aspects of DevOps. I'm also experienced in GitHub and [Azure DevOps](https://dev.azure.com). I can also create [extensions for Azure DevOps](https://github.com/avestura/my-azure-devops) using Azure DevOps Extension SDK.

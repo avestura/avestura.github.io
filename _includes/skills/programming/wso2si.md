@@ -1,1 +1,0 @@
-I have experience in Message and Stream processing with [WSO2 Stream Integrator](https://wso2.com/integration/streaming-integrator/#) and [Siddhi Apps](https://siddhi.io/). Check out my contribution in solving DEBS2015 challange at [IUST open projects](https://github.com/iust-projects/debs2015-wso2-si)

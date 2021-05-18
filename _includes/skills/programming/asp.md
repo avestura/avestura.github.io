@@ -1,1 +1,0 @@
-I've done various projects with ASP.NET Core and I'm experienced in it's MVC pattern and DI System.

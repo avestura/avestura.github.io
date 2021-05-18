@@ -1,1 +1,0 @@
- I'm novice in C and C++, however I'm experienced in some of POSIX APIs (processes, fork features, p_threads, ...), and solved some [distributed-systems problems using C and MPI](https://github.com/avestura/mpich-playground). I also have a [GUI Tic-Tac-Toe game](https://github.com/avestura/doozGame) project fully written in C++.

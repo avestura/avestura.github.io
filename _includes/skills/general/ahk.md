@@ -1,1 +1,0 @@
- I can write AutoHotkey scripts‌ to create keyboard shortcuts and macros to do some of my tasks faster with it.

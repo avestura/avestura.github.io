@@ -1,1 +1,0 @@
- I'm experienced in writing software in Assembly. Take a look at my [Calculator assembly project](https://github.com/avestura/MicrocontrollerCalculator) and [DC Motor controller](https://github.com/avestura/DCMotor) in GitHub. Both projects are simulated in Proteus. 

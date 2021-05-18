@@ -1,1 +1,0 @@
-I'm average in English Writing, Listening and Speaking skills.
